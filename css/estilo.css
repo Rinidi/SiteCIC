@@ -1,21 +1,76 @@
-article{
+article.formu{
 	background-color: rgba(34, 188, 81, 1); 
+	padding-bottom: 50px;
 }
-h1{
-
-}
+/*Divs Barras*/
 div.barra{
 	background-color: rgba(231, 126, 35, 1);
 	height: 10px;
 }
+div.barraInfantil{
+	background-color: rgba(34, 128, 159, 1);
+	height: 10px;
+}
+div.barraFundamental1{
+	background-color: rgba(34, 128, 159, 1);
+	height: 10px;
+}
+div.barraFundamental2{
+	background-color: rgba(123, 38, 170, 1);
+	height: 10px;
+}
+div.barraMedio{
+	background-color: rgba(46, 82, 171, 1);
+	height: 10px;
+}
+/*FIM Divs Barras*/
+
+/*Navs Secundarias*/
 nav#navSecundaria{
 	background-color: rgba(231, 126, 35, 0.7);
 	font-weight: bold;
 	text-align: justify;
 }
+nav#navSecundariaInfantil{
+	background-color: rgba(34, 187, 86, 0.7);
+	font-weight: bold;
+	text-align: justify;	
+}
+nav#navSecundariaFundamental1{
+	background-color: rgba(34, 128, 159, 0.7);
+	font-weight: bold;
+	text-align: justify;
+}
+nav#navSecundariaFundamental2{
+	background-color: rgba(123, 38, 170, 0.7);
+	font-weight: bold;
+	text-align: justify;
+}
+nav#navSecundariaMedio{
+	background-color: rgba(46, 82, 171, 0.7);
+	font-weight: bold;
+	text-align: justify;
+}
+/*FIM Navs Secundarias*/
+
+/*Navs Primarias*/
 nav#navPrimaria{
 	background-color: rgba(231, 126, 35, 1);
 }
+nav#navPrimariaInfantil{
+	background-color: rgba(34, 187, 86, 1);
+}
+nav#navPrimariaFundamental1{
+	background-color: rgba(34, 128, 159, 1);
+}
+nav#navPrimariaFundamental2{
+	background-color: rgba(123, 38, 170, 1);
+}
+nav#navPrimariaMedio{
+	background-color: rgba(46, 82, 171, 1);
+}
+/*FIM Navs Primarias*/
+
 div#contNav{
 	margin-top: 40px;
 }
