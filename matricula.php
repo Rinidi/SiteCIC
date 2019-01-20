@@ -45,13 +45,13 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Eventos</a>
+                                <a class="nav-link" href="eventos.php">Eventos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Trabalhe conosco</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Fale conosco</a>
+                                <a class="nav-link" href="falseConosco.php">Fale conosco</a>
                             </li>
                         </ul>
                     </div>

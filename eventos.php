@@ -80,40 +80,69 @@
         <br/><br/>
         <br/><br/>
         <br/><br/>
-        <br/><br/>
         <article>
             <div class="container">
-                <h1>Palavras da Direção</h1>
-                <p>Texto esplicando a História do Colédio Imaculada Conceição<br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1>Valores</h1>
-                <ul>
-                    <li>1°valor da instituição</li>
-                    <li>2°valor da instituição</li>
-                    <l1>3°valor.... e assim por diante</l1>
-                </ul>
-                <h1>Objetivo</h1>
-                <p>Breve texto dissertando sobre o objetivo principal da instituição<br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1>Outro Tópico Sugerido</h1>
-                <p>TEXTO DESSE TÓPICO<br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h1>EVENTOS</h1>
+                <br/><br/>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
+                        <a href="evento1.php"> 
+                            <img class="img-fluid" src="img/fotos/1.jpg" alt="template de foto 1"/>                          
+                            <p>Evento 1</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <a href="evento2.php">
+                            <img class="img-fluid" src="img/fotos/2.jpg" alt="template de foto 2"/>
+                            <p>Evento 2</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <a href="evento3.php">
+                            <img class="img-fluid" src="img/fotos/3.jpg" alt="template de foto 3" />
+                            <p>Evento 3</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
+                        <a href="evento4.php"> 
+                            <img class="img-fluid" src="img/fotos/4.jpg" alt="template de foto 4"/>                          
+                            <p>Evento 4</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <a href="evento5.php">
+                            <img class="img-fluid" src="img/fotos/5.jpg" alt="template de foto 5"/>
+                            <p>Evento 5</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <a href="evento6.php">
+                            <img class="img-fluid" src="img/fotos/6.jpg" alt="template de foto 6" />
+                            <p>Evento 6</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
+                        <a href="evento7.php"> 
+                            <img class="img-fluid" src="img/fotos/7.jpg" alt="template de foto 7"/>                          
+                            <p>Evento 7</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <a href="evento8.php">
+                            <img class="img-fluid" src="img/fotos/8.jpg" alt="template de foto 8"/>
+                            <p>Evento 8</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <a href="evento9.php">
+                            <img class="img-fluid" src="img/fotos/9.jpg" alt="template de foto 9" />
+                            <p>Evento 9</p>
+                        </a>
+                    </div>
+                </div>
             </div>
+            <br/><br/>
+            <br/><br/>
         </article>
         <footer>
             <div id="dataFooter"class="container">

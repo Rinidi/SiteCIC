@@ -10,10 +10,11 @@
     </head>
     <body>
         <div>
+            <!--Navbar secundaria com transparencia-->
             <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
                 <div id="contNav" class="container justify-content-center">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="100px"></a>
-                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo1.png" height="80px"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="90px"></a>
+                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo1.png" height="60px"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -30,7 +31,7 @@
                                   <a class="dropdown-item" href="escola.php">A escola</a>
                                   <a class="dropdown-item" href="matricula.php">Matrícula</a>
                                   <!-- <a class="dropdown-item" href="#">Regimento</a> -->
-                                  <a class="dropdown-item" href="Infraestrutura.php">Infraestrutura</a>
+                                  <a class="dropdown-item" href="intraestrutura.php">Infraestrutura</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -57,8 +58,10 @@
                     </div>
                 </div>
             </nav>
+            <!--FIM Navbar secundaria com transparencia-->
         </div>
-        <div> 
+        <div> s
+            <!--Navbar Primária com cor Sólida-->
             <nav class="navbar fixed-top navbar-expand-lg" id="navPrimaria"> 
                 <div class="container justify-content-end">
                     <ul class="navbar-nav">
@@ -75,46 +78,48 @@
                     </ul>
                 </div>                  
             </nav>
+            <!-- FIM Navbar Primária com cor Sólida-->
         </div>
         <br/><br/>
         <br/><br/>
         <br/><br/>
-        <br/><br/>
-        <br/><br/>
+        <br/><br/>         
         <article>
             <div class="container">
-                <h1>Palavras da Direção</h1>
-                <p>Texto esplicando a História do Colédio Imaculada Conceição<br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1>Valores</h1>
-                <ul>
-                    <li>1°valor da instituição</li>
-                    <li>2°valor da instituição</li>
-                    <l1>3°valor.... e assim por diante</l1>
-                </ul>
-                <h1>Objetivo</h1>
-                <p>Breve texto dissertando sobre o objetivo principal da instituição<br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1>Outro Tópico Sugerido</h1>
-                <p>TEXTO DESSE TÓPICO<br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-5">
+                        <h1>TEXTO TEXTO</h1>
+                        <h2>TEXTO TEXTO TEXTO</h2>
+                        <p>(TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO)</p>
+                    </div>
+                    <div class="col-5">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Nome</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">DDD+Telefone</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XX)XXXX-XXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensagem</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Enviar</button>
+                        </form>
+                    </div>  
+                </div>
             </div>
         </article>
+        <br/><br/>
+        <br/><br/>
         <footer>
             <div id="dataFooter"class="container">
                 <div class="row">

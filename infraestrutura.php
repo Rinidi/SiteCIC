@@ -45,13 +45,13 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Eventos</a>
+                                <a class="nav-link" href="eventos.php">Eventos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Trabalhe conosco</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Fale conosco</a>
+                                <a class="nav-link" href="faleConosco.php">Fale conosco</a>
                             </li>
                         </ul>
                     </div>
@@ -82,11 +82,36 @@
         <br/><br/>
         <br/><br/>
         <article>
-            <div class="container">
+            <div class="container"><!--Aqui começa o conteúdo principal da página-->
                 <h1>Laboratório de Informática</h1>
-                <p>TEXTO TEXTO TEXTO TEXTO</p>
-
-                <h1>Áreas da infraestrutura da escola</h1>
+                <p>Texto Sobre o Laboratório de Informática</p>
+                <a class="btn btn-warning btn-lg" href="labInfo.php" role="button">Clique aqui para ver</a>
+                <br/>
+                <br/>
+                <h1>ÁREA 1 DA ESCOLA</h1>
+                <p>Texto sobre a área citada acima</p>
+                <a class="btn btn-warning btn-lg" href="area1.php" role="button">Clique aqui para ver</a>
+                <br/>
+                <br/>
+                <h1>ÁREA 2 DA ESCOLA</h1>
+                <p>Texto sobre a área citada acima</p>
+                <a class="btn btn-warning btn-lg" href="area2.php" role="button">Clique aqui para ver</a>
+                <br/>
+                <br/>
+                <h1>ÁREA 3 DA ESCOLA</h1>
+                <p>Texto sobre a área citada acima</p>
+                <a class="btn btn-warning btn-lg" href="area3.php" role="button">Clique aqui para ver</a>
+                <br/>
+                <br/>
+                <h1>ÁREA 4 DA ESCOLA</h1>
+                <p>Texto sobre a área citada acima</p>
+                <a class="btn btn-warning btn-lg" href="area4.php" role="button">Clique aqui para ver</a>
+                <br/>
+                <br/>
+                <h1>ÁREA 5 DA ESCOLA</h1>
+                <p>Texto sobre a área citada acima</p>
+                <a class="btn btn-warning btn-lg" href="area5.php" role="button">Clique aqui para ver</a>
+                <br/><br/>
             </div>
         </article>
         <footer>
