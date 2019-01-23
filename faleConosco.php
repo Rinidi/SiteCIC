@@ -66,12 +66,12 @@
                 <div class="container justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <img src="img/open-iconic-master/svg/phone.svg" alt="logo Telefone" height="15px">
-                            <span class="">(35)3641-1577</span>
+                            <img src="img/cel.png" alt="logo Telefone" height="20px">
+                            <span class="tel">(35)3641-1577</span>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">
-                                <img src="img/open-iconic-master/svg/people.svg" alt="logo pessoa" height="15px">
+                            <a class="pais" href="#">
+                                <img src="img/pessoa.png" alt="logo pessoa" height="20px">
                                 Pais e Alunos
                             </a>
                         </li>
@@ -89,12 +89,9 @@
                 <div class="row">
                     <div class="col-2">
                     </div>
-                    <div class="col-5">
-                        <h1>TEXTO TEXTO</h1>
-                        <h2>TEXTO TEXTO TEXTO</h2>
-                        <p>(TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO)</p>
+                    <div class="col-4">
                     </div>
-                    <div class="col-5">
+                    <div class="col-6">
                         <form>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Nome</label>

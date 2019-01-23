@@ -24,32 +24,74 @@ div.barraMedio{
 	height: 10px;
 }
 /*FIM Divs Barras*/
+span.tel{
+	color: #F5F3EF;
+	font-size: 14px;
+}
+a.pais{
+	color: #F5F3EF;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+form.textForm{
+	color:rgba(37, 38, 42,0.7);
+	font-family: Trebuchet MS, Sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+div#navbarText{
+	margin-top: 20px;
+	margin-left: 20px;
+}
 
 /*Navs Secundarias*/
 nav#navSecundaria{
 	background-color: rgba(231, 126, 35, 0.7);
 	font-weight: bold;
 	text-align: justify;
+	letter-spacing: 2px;
+	word-spacing: -5px;
+	text-transform: capitalize;
+	font-family: Verdana;
+
 }
 nav#navSecundariaInfantil{
 	background-color: rgba(34, 187, 86, 0.7);
 	font-weight: bold;
-	text-align: justify;	
+	text-align: justify;
+	letter-spacing: 2px;
+	word-spacing: -5px;
+	text-transform: capitalize;
+	font-family: Verdana;	
 }
 nav#navSecundariaFundamental1{
-	background-color: rgba(34, 128, 159, 0.7);
+	background-color: rgba(34, 128, 159, 0.5);
 	font-weight: bold;
 	text-align: justify;
+	letter-spacing: 2px;
+	word-spacing: -5px;
+	text-transform: capitalize;
+	font-family: Verdana;
 }
 nav#navSecundariaFundamental2{
 	background-color: rgba(123, 38, 170, 0.7);
 	font-weight: bold;
 	text-align: justify;
+	letter-spacing: 2px;
+	word-spacing: -5px;
+	text-transform: capitalize;
+	font-family: Verdana;
 }
 nav#navSecundariaMedio{
 	background-color: rgba(46, 82, 171, 0.7);
 	font-weight: bold;
 	text-align: justify;
+	letter-spacing: 2px;
+	word-spacing: -5px;
+	text-transform: capitalize;
+	font-family: Verdana;
 }
 /*FIM Navs Secundarias*/
 

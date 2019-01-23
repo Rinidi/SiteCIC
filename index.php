@@ -21,7 +21,7 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarText">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,12 +66,12 @@
                 <div class="container justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <img src="img/open-iconic-master/svg/phone.svg" alt="logo Telefone" height="15px">
-                            <span class="">(35)3641-1577</span>
+                            <img src="img/cel.png" alt="logo Telefone" height="20px">
+                            <span class="tel">(35)3641-1577</span>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">
-                                <img src="img/open-iconic-master/svg/people.svg" alt="logo pessoa" height="15px">
+                            <a class="pais" href="#">
+                                <img src="img/pessoa.png" alt="logo pessoa" height="20px">
                                 Pais e Alunos
                             </a>
                         </li>
@@ -108,16 +108,16 @@
         <div id="divicons" class="container justify-content-center">
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                    <a href="#"><img src="img/01.png" height="70px"></a>
+                    <a href="educacaoInfantil.php"><img src="img/01.png" height="70px"></a>
                 </div>
                 <div class="col-7 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                    <a href="#"><img src="img/02.png" height="70px"></a>
+                    <a href="fundamental1.php"><img src="img/02.png" height="70px"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                    <a href="#"><img src="img/03.png" height="70px"></a>
+                    <a href="fundamental2.php"><img src="img/03.png" height="70px"></a>
                 </div>
                 <div class="col-7 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                    <a href="#"><img src="img/04.png" height="70px"></a>
+                    <a href="ensinoMedio.php"><img src="img/04.png" height="70px"></a>
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@
                             <p>(TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO)</p>
                         </div>
                         <div class="col-5">
-                            <form>
+                            <form class="textForm">
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1">Nome</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">

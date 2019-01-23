@@ -12,8 +12,8 @@
         <div>
             <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
                 <div id="contNav" class="container justify-content-center">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="100px"></a>
-                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo1.png" height="80px"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="90px"></a>
+                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo1.png" height="60px"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -63,12 +63,12 @@
                 <div class="container justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <img src="img/open-iconic-master/svg/phone.svg" alt="logo Telefone" height="15px">
-                            <span class="">(35)3641-1577</span>
+                            <img src="img/cel.png" alt="logo Telefone" height="20px">
+                            <span class="tel">(35)3641-1577</span>
                         </li>
                         <li class="nav-item">
-                            <a class="" href="#">
-                                <img src="img/open-iconic-master/svg/people.svg" alt="logo pessoa" height="15px">
+                            <a class="pais" href="#">
+                                <img src="img/pessoa.png" alt="logo pessoa" height="20px">
                                 Pais e Alunos
                             </a>
                         </li>
