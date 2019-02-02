@@ -149,7 +149,9 @@
                                     <label for="exampleFormControlTextarea1">Mensagem</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-dark">Enviar</button>
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-dark" id="btnForm">Enviar</button>
+                                </div>
                             </form>
                         </div>  
                     </div>
@@ -160,9 +162,9 @@
                 <div class="row">
                     <div class="col-3">
                         <h6>COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                        <p>Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
+                        <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="rodaLinks">
                         <h6>Níveis de Ensino</h6>
                         <a href="educacaoInfantil.php">Educação Infantil</a><br/>
                         <a href="fundamental1.php">Fundamental I</a><br/>
@@ -177,14 +179,14 @@
                     <div class="col-3">
                         <h6>Redes Sociais</h6>
                         <a href="https://www.facebook.com/ciccolegioimaculada">
-                            <span>@ciccolefioimaculada</span>
+                            <span>@ciccolegioimaculada</span>
                             <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
                         </a>
                     </div>
                 </div>
             </div>
             <div class="barra"></div>
-            <div class="container">
+            <div class="container" id="CIC2019">
                 Colégio Imaculada Conceição - 2019 
             </div>
         </footer>

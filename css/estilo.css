@@ -1,15 +1,29 @@
 h6{
+	font-size: 14px;
 	color: rgba(0,0,0,0.8);
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: center;
 }
 a{
 	color: rgba(0,0,0, 0.5);
+	text-align: center;
 
 }
+p.rodape{
+	font-size: 14px;
+	text-align: center;
+}
 article.formu{
-	background-color: rgba(34, 188, 81, 1); 
-	padding-bottom: 50px;
+	background-color: rgba(188, 188, 188, 1);
+
+	/*
+	background: url(../img/fundoForm.png) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
 }
 /*Divs Barras*/
 div.barra{
@@ -34,12 +48,14 @@ div.barraMedio{
 }
 /*FIM Divs Barras*/
 span.tel{
-	color: #F5F3EF;
+	color: #2b4055;
 	font-size: 14px;
+	font-weight: bold;
 }
 a.pais{
-	color: #F5F3EF;
+	color: #2b4055;
 	font-size: 14px;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin-left: 20px;
 }
@@ -121,7 +137,9 @@ nav#navPrimariaMedio{
 	background-color: rgba(46, 82, 171, 1);
 }
 /*FIM Navs Primarias*/
-
+div#rodaLinks{
+	text-align: center;
+}
 div#contNav{
 	margin-top: 40px;
 }
@@ -134,7 +152,7 @@ div#divicons{
 }
 div#forms{
 	padding-top: 50px; 
-	margin-bottom: 50px:
+	padding-bottom: 20px;
 }
 div#carousel-inner{
 	height: 2000px;
@@ -142,6 +160,17 @@ div#carousel-inner{
 div#dataFooter{
 	padding-top: 30px;
 	margin-bottom: 30px;
+	text-align: center;
+}
+div#CIC2019{
+	font-weight: bold;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+button#btnForm{
+	width: 100px;
 }
 footer{	
 	background-color: rgba(220,220,220,0.8);

@@ -114,7 +114,7 @@
                     <div class="col-3">
                         <h6>Redes Sociais</h6>
                         <a href="https://www.facebook.com/ciccolegioimaculada">
-                            <span>@ciccolefioimaculada</span>
+                            <span>@ciccolegioimaculada</span>
                             <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
                         </a>
                     </div>
