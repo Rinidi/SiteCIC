@@ -7,35 +7,40 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/estilo.css">
+        <script type="text/javascript">
+            function hover(){
+                document.getElementById("textNav").style="color: green;";
+            }
+        </script>
     </head>
     <body>
         <div>
             <!--Navbar secundaria com transparencia-->
             <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
                 <div id="contNav" class="container justify-content-center">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="90px"></a>
-                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo1.png" height="60px"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="95px"></a>
+                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo2.png" height="60px"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarText">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php">Home</a>
+                                <a id="textNav" class="nav-link" href="index.php" onmousemove="hover()">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a id="textNav" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sobre Nós
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                   <a class="dropdown-item" href="escola.php">A escola</a>
-                                  <a class="dropdown-item" href="#">Matrícula</a>
+                                  <a class="dropdown-item" href="matricula.php">Matrícula</a>
                                   <!-- <a class="dropdown-item" href="#">Regimento</a> -->
-                                  <a class="dropdown-item" href="#">Infraestrutura</a>
+                                  <a class="dropdown-item" href="infraestrutura.php">Infraestrutura</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a id="textNav" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Educação
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -46,13 +51,13 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="eventos.php">Eventos</a>
+                                <a id="textNav" class="nav-link" href="eventos.php">Eventos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Trabalhe conosco</a>
+                                <a id="textNav" class="nav-link" href="#">Trabalhe conosco</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="faleConosco.php">Fale conosco</a>
+                                <a id="textNav" class="nav-link" href="faleConosco.php">Fale conosco</a>
                             </li>
                         </ul>
                     </div>
@@ -185,9 +190,11 @@
                     </div>
                 </div>
             </div>
-            <div class="barra"></div>
-            <div class="container" id="CIC2019">
-                Colégio Imaculada Conceição - 2019 
+            <div class="foot">
+                <div class="barra"></div>
+                <div class="barra2">
+                    Colégio Imaculada Conceição - 2019 
+                </div>
             </div>
         </footer>
         <!-- Optional JavaScript -->
