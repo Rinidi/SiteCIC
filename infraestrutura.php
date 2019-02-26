@@ -88,30 +88,26 @@
                 <a class="btn btn-warning btn-lg" href="labInfo.php" role="button">Clique aqui para ver</a>
                 <br/>
                 <br/>
-                <h1>ÁREA 1 DA ESCOLA</h1>
+                <h1>Quadra</h1>
                 <p>Texto sobre a área citada acima</p>
                 <a class="btn btn-warning btn-lg" href="area1.php" role="button">Clique aqui para ver</a>
                 <br/>
                 <br/>
-                <h1>ÁREA 2 DA ESCOLA</h1>
+                <h1>Parquinho</h1>
                 <p>Texto sobre a área citada acima</p>
                 <a class="btn btn-warning btn-lg" href="area2.php" role="button">Clique aqui para ver</a>
                 <br/>
                 <br/>
-                <h1>ÁREA 3 DA ESCOLA</h1>
+                <h1>Laboratório de Ciências</h1>
                 <p>Texto sobre a área citada acima</p>
                 <a class="btn btn-warning btn-lg" href="area3.php" role="button">Clique aqui para ver</a>
                 <br/>
                 <br/>
-                <h1>ÁREA 4 DA ESCOLA</h1>
+                <h1>Espaço Multimídia</h1>
                 <p>Texto sobre a área citada acima</p>
                 <a class="btn btn-warning btn-lg" href="area4.php" role="button">Clique aqui para ver</a>
                 <br/>
                 <br/>
-                <h1>ÁREA 5 DA ESCOLA</h1>
-                <p>Texto sobre a área citada acima</p>
-                <a class="btn btn-warning btn-lg" href="area5.php" role="button">Clique aqui para ver</a>
-                <br/><br/>
             </div>
         </article>
         <footer>
@@ -119,9 +115,9 @@
                 <div class="row">
                     <div class="col-3">
                         <h6>COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                        <p>Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
+                        <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="rodaLinks">
                         <h6>Níveis de Ensino</h6>
                         <a href="educacaoInfantil.php">Educação Infantil</a><br/>
                         <a href="fundamental1.php">Fundamental I</a><br/>
@@ -136,15 +132,17 @@
                     <div class="col-3">
                         <h6>Redes Sociais</h6>
                         <a href="https://www.facebook.com/ciccolegioimaculada">
-                            <span>@ciccolefioimaculada</span>
+                            <span>@ciccolegioimaculada</span>
                             <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="barra"></div>
-            <div class="container">
-                Colégio Imaculada Conceição - 2019 
+            <div class="foot">
+                <div class="barra"></div>
+                <div class="barra2">
+                    Colégio Imaculada Conceição - 2019 
+                </div>
             </div>
         </footer>
         <!-- Optional JavaScript -->

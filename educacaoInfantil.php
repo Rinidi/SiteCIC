@@ -10,7 +10,7 @@
     </head>
     <body>
         <div>
-            <nav id="navSecundariaInfantil" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
+            <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
                 <div id="contNav" class="container justify-content-center">
                     <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="90px"></a>
                     <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo1.png" height="60px"></a>
@@ -59,7 +59,7 @@
             </nav>
         </div>
         <div> 
-            <nav id="navPrimariaInfantil" class="navbar fixed-top navbar-expand-lg"> 
+            <nav id="navPrimaria" class="navbar fixed-top navbar-expand-lg"> 
                 <div class="container justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -124,9 +124,9 @@
                 <div class="row">
                     <div class="col-3">
                         <h6>COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                        <p>Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
+                        <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="rodaLinks">
                         <h6>Níveis de Ensino</h6>
                         <a href="educacaoInfantil.php">Educação Infantil</a><br/>
                         <a href="fundamental1.php">Fundamental I</a><br/>
@@ -141,15 +141,17 @@
                     <div class="col-3">
                         <h6>Redes Sociais</h6>
                         <a href="https://www.facebook.com/ciccolegioimaculada">
-                            <span>@ciccolefioimaculada</span>
+                            <span>@ciccolegioimaculada</span>
                             <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="barraInfantil"></div>
-            <div class="container">
-                Colégio Imaculada Conceição - 2019 
+            <div class="foot">
+                <div class="barra"></div>
+                <div class="barra2">
+                    Colégio Imaculada Conceição - 2019 
+                </div>
             </div>
         </footer>
         <!-- Optional JavaScript -->

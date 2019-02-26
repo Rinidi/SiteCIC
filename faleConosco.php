@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/estilo.css">
     </head>
-    <body>
+    <body  class="formu">
         <div>
             <!--Navbar secundaria com transparencia-->
             <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
@@ -60,7 +60,7 @@
             </nav>
             <!--FIM Navbar secundaria com transparencia-->
         </div>
-        <div> s
+        <div>
             <!--Navbar Primária com cor Sólida-->
             <nav class="navbar fixed-top navbar-expand-lg" id="navPrimaria"> 
                 <div class="container justify-content-end">
@@ -83,7 +83,7 @@
         <br/><br/>
         <br/><br/>
         <br/><br/>
-        <br/><br/>         
+        <br/><br/>        
         <article>
             <div class="container">
                 <div class="row">
@@ -122,9 +122,9 @@
                 <div class="row">
                     <div class="col-3">
                         <h6>COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                        <p>Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
+                        <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="rodaLinks">
                         <h6>Níveis de Ensino</h6>
                         <a href="educacaoInfantil.php">Educação Infantil</a><br/>
                         <a href="fundamental1.php">Fundamental I</a><br/>
@@ -139,15 +139,17 @@
                     <div class="col-3">
                         <h6>Redes Sociais</h6>
                         <a href="https://www.facebook.com/ciccolegioimaculada">
-                            <span>@ciccolefioimaculada</span>
+                            <span>@ciccolegioimaculada</span>
                             <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="barra"></div>
-            <div class="container">
-                Colégio Imaculada Conceição - 2019 
+            <div class="foot">
+                <div class="barra"></div>
+                <div class="barra2">
+                    Colégio Imaculada Conceição - 2019 
+                </div>
             </div>
         </footer>
         <!-- Optional JavaScript -->

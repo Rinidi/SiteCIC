@@ -10,50 +10,42 @@ a{
 	text-align: center;
 
 }
+footer{
+	background-color: #2b4055;
+}
 p.rodape{
 	font-size: 14px;
 	text-align: center;
 }
 article.formu{
-	background-color: rgba(188, 188, 188, 1);
 
-	/*
-	background: url(../img/fundoForm.png) no-repeat center center; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	*/
+	background: url(../img/fundo.jpg);
+}
+body.formu{
+	background: url(../img/fundo.jpg);	
 }
 /*Divs Barras*/
 div.barra{
 	background-color: rgba(231, 126, 35, 1);
-	height: 10px;
+	height: 25px;
+	margin-bottom: -5px;
 }
-div.barraInfantil{
-	background-color: rgba(34, 187, 86, 1);
-	height: 10px;
-}
-div.barraFundamental1{
-	background-color: rgba(34, 128, 159, 1);
-	height: 10px;
-}
-div.barraFundamental2{
-	background-color: rgba(123, 38, 170, 1);
-	height: 10px;
-}
-div.barraMedio{
-	background-color: rgba(46, 82, 171, 1);
-	height: 10px;
+div.barra2{
+	background-color: rgba(43, 64, 85, 1);
+	color: rgba(255,255,255,0.8);
+	padding: 5px 0px 5px 0px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
 }
 /*FIM Divs Barras*/
 span.tel{
-	color: #2b4055;
+	color: #c7d7e8;
 	font-size: 14px;
 	font-weight: bold;
 }
 a.pais{
-	color: #2b4055;
+	color: #c7d7e8;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -73,47 +65,13 @@ div#navbarText{
 
 /*Navs Secundarias*/
 nav#navSecundaria{
-	background-color: rgba(231, 126, 35, 0.7);
+	/*background-color: rgba(231, 126, 35, 0.7);*/
+	/*background-color: rgba(255, 146, 56, 0.8);*/
+	/*background-color: rgba(102, 113, 126, 0.8);*/
+	background-color: rgba(95, 120, 145, 0.8);
 	font-weight: bold;
 	text-align: justify;
-	letter-spacing: 2px;
-	word-spacing: -5px;
-	text-transform: capitalize;
-	font-family: Verdana;
-
-}
-nav#navSecundariaInfantil{
-	background-color: rgba(34, 187, 86, 0.7);
-	font-weight: bold;
-	text-align: justify;
-	letter-spacing: 2px;
-	word-spacing: -5px;
-	text-transform: capitalize;
-	font-family: Verdana;	
-}
-nav#navSecundariaFundamental1{
-	background-color: rgba(34, 128, 159, 0.5);
-	font-weight: bold;
-	text-align: justify;
-	letter-spacing: 2px;
-	word-spacing: -5px;
-	text-transform: capitalize;
-	font-family: Verdana;
-}
-nav#navSecundariaFundamental2{
-	background-color: rgba(123, 38, 170, 0.7);
-	font-weight: bold;
-	text-align: justify;
-	letter-spacing: 2px;
-	word-spacing: -5px;
-	text-transform: capitalize;
-	font-family: Verdana;
-}
-nav#navSecundariaMedio{
-	background-color: rgba(46, 82, 171, 0.7);
-	font-weight: bold;
-	text-align: justify;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	word-spacing: -5px;
 	text-transform: capitalize;
 	font-family: Verdana;
@@ -121,26 +79,18 @@ nav#navSecundariaMedio{
 /*FIM Navs Secundarias*/
 
 /*Navs Primarias*/
-nav#navPrimaria{
-	background-color: rgba(231, 126, 35, 1);
-}
-nav#navPrimariaInfantil{
-	background-color: rgba(34, 187, 86, 1);
-}
-nav#navPrimariaFundamental1{
-	background-color: rgba(34, 128, 159, 1);
-}
-nav#navPrimariaFundamental2{
-	background-color: rgba(123, 38, 170, 1);
-}
-nav#navPrimariaMedio{
-	background-color: rgba(46, 82, 171, 1);
+nav#navPrimaria{ 
+	/*background-color: rgba(231, 126, 35, 1);*/
+	/*background-color: rgba(67, 88, 112, 1);*/
+	/*background-color: rgba(231, 126, 35, 1);*/
+	background-color: rgba(95, 120, 145, 1);
 }
 /*FIM Navs Primarias*/
 div#rodaLinks{
 	text-align: center;
 }
 div#contNav{
+        
 	margin-top: 40px;
 }
 div#car{
@@ -162,16 +112,12 @@ div#dataFooter{
 	margin-bottom: 30px;
 	text-align: center;
 }
-div#CIC2019{
-	font-weight: bold;
-	margin-top: 5px;
-	padding-bottom: 5px;
-	text-align: center;
-	text-transform: uppercase;
-}
 button#btnForm{
 	width: 100px;
 }
+a#textNav{
+        color: #c7d7e8; 
+}
 footer{	
-	background-color: rgba(220,220,220,0.8);
+	background-color: rgba(220,220,220,0.8);	
 }
