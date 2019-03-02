@@ -103,41 +103,47 @@
             </nav>
             <!-- FIM Navbar Primária com cor Sólida-->
         </div>
-        <br/><br/>
-        <br/><br/>
-        <br/><br/>
-        <br/><br/>
-        <br/><br/>
+        <!--Carrosel Inicio da Página-->
+        <div id="car">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/slide1.svg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Foto referente ao ensino médio</h5>
+                                <p>*Comentário a mais sobre ao ensino médio na instituição*</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide2.svg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Foto referente ao ensino médio</h5>
+                                <p>*Comentário a mais sobre ao ensino médio na instituição*</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide3.svg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Foto referente ao ensino médio</h5>
+                                <p>*Comentário a mais sobre ao ensino médio na instituição*</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!--FIM Carrosel Inicio da Página-->
         <article>
-            <div class="container"><!--Aqui começa o conteúdo principal da página-->
-                <h1>Laboratório de Informática</h1>
-                <p>Texto Sobre o Laboratório de Informática</p>
-                <a class="btn btn-warning btn-lg" href="labInfo.php" role="button">Clique aqui para ver</a>
-                <br/>
-                <br/>
-                <h1>Quadra</h1>
-                <p>Texto sobre a área citada acima</p>
-                <a class="btn btn-warning btn-lg" href="area1.php" role="button">Clique aqui para ver</a>
-                <br/>
-                <br/>
-                <h1>Parquinho</h1>
-                <p>Texto sobre a área citada acima</p>
-                <a class="btn btn-warning btn-lg" href="area2.php" role="button">Clique aqui para ver</a>
-                <br/>
-                <br/>
-                <h1>Biblioteca</h1>
-                <p>Texto sobre a Biblioteca</p>
-                <a class="btn btn-warning btn-lg" href="biblioteca.php" role="button">Clique aqui para ver</a>
-                <h1>Laboratório de Ciências</h1>
-                <p>Texto sobre a área citada acima</p>
-                <a class="btn btn-warning btn-lg" href="area3.php" role="button">Clique aqui para ver</a>
-                <br/>
-                <br/>
-                <h1>Espaço Multimídia</h1>
-                <p>Texto sobre a área citada acima</p>
-                <a class="btn btn-warning btn-lg" href="area4.php" role="button">Clique aqui para ver</a>
-                <br/>
-                <br/>
+            <div class="container">
+                <h1>ENSINO MEDIO</h1>
+                <h3>Período letivo dos alunos</h3>
             </div>
         </article>
         <footer>

@@ -108,21 +108,21 @@
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/slide1.svg" alt="First slide">
+                        <img class="d-block w-100" src="img/EducacaoInfantil/1.jpg" alt="Crianças na sala">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Foto referente a educação infantil</h5>
                                 <p>*Comentário a mais sobre a educação infantil na instituição*</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slide2.svg" alt="Second slide">
+                        <img class="d-block w-100" src="img/EducacaoInfantil/2.jpg" alt="Crianças desenhando">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Foto referente a educação infantil</h5>
                                 <p>*Comentário a mais sobre a educação infantil na instituição*</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slide3.svg" alt="Third slide">
+                        <img class="d-block w-100" src="img/EducacaoInfantil/5.jpg" alt="Third slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Foto referente a educação infantil</h5>
                                 <p>*Comentário a mais sobre a educação infantil na instituição*</p>
