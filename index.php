@@ -9,11 +9,45 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/estilo.css">
         <script type="text/javascript">
-            function dentro(x) {
-                x.style = "color: #6b747e;";
-            }
-            function fora(x) {
-                x.style = "color: #46586c";
+            function hover(x, op, tp) {
+                if (tp === "MV") {
+                    switch (op) {
+                        case 1:
+                        {
+                            x.style = "color: #6b747e;";
+                            break;
+                        }
+                        case 2:
+                        {
+                            x.style = "color: #222222;";
+                            break;
+                        }
+                        case 3:
+                        {
+                            x.style = "background-color: #4a69a8; border-radius:20px;\n\
+                                color: #dddddd; text-transform: capitalize;";
+                            break;
+                        }
+                    }
+                } else if (tp === "OT") {
+                    switch (op) {
+                        case 1:
+                        {
+                            x.style = "color: #46586c;";
+                            break;
+                        }
+                        case 2:
+                        {
+                            x.style = "color: #777777;";
+                            break;
+                        }
+                        case 3:
+                        {
+                            x.style = "color: #777777;";
+                            break;
+                        }
+                    }
+                }
             }
         </script>
 
@@ -32,14 +66,14 @@
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="index.php" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">Home</a>
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="textNav" class="nav-link dropdown-toggle"
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="dentro(this)" 
-                                   onmouseout="fora(this)">
+                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" 
+                                   onmouseout="hover(this, 1, 'OT')">
                                     Sobre Nós
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -53,7 +87,7 @@
                                 <a id="textNav" class="nav-link dropdown-toggle" 
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Educação
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -61,24 +95,24 @@
                                     <a class="dropdown-item" href="fundamental1.php">Fundamental I</a>
                                     <a class="dropdown-item" href="fundamental2.php">Fundamental II</a>
                                     <a class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
-                                    <a class="dropdown-item" href="terceirao.php">Terceirão</a>
+                                    <a class="dropdown-item" href="terceirao.php">Curso Terceirão</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="eventos.php" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Eventos
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="#" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Trabalhe conosco
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="faleConosco.php" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Fale conosco
                                 </a>
                             </li>
@@ -88,8 +122,6 @@
             </nav>
         </div>
         <!--FIM Navbar secundaria com transparencia-->
-
-
         <!--Navbar Primária com cor Sólida-->
         <div class="nav1">
             <nav class="navbar fixed-top navbar-expand-lg" id="navPrimaria">
@@ -158,14 +190,14 @@
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="index.php" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">Home</a>
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="textNav" class="nav-link dropdown-toggle"
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="dentro(this)" 
-                                   onmouseout="fora(this)">
+                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" 
+                                   onmouseout="hover(this, 1, 'OT')">
                                     Sobre Nós
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -179,7 +211,7 @@
                                 <a id="textNav" class="nav-link dropdown-toggle" 
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Educação
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -192,19 +224,19 @@
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="eventos.php" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Eventos
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="#" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Trabalhe conosco
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="faleConosco.php" 
-                                   onmousemove="dentro(this)" onmouseout="fora(this)">
+                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
                                     Fale conosco
                                 </a>
                             </li>
@@ -243,23 +275,23 @@
         <div id="divicons" class="container">
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="educacaoInfantil.php"><img src="img/01.png" width="300px" class="img-fluid"></a>
+                    <a href="educacaoInfantil.php"><img src="img/01.png" width="300px" class="img-fluid" id="logo1"></a>
                 </div>
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="fundamental1.php"><img src="img/02.png" width="300px" class="img-fluid"></a>
+                    <a href="fundamental1.php"><img src="img/02.png" width="300px" class="img-fluid" id="logo2"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="fundamental2.php"><img src="img/03.png" width="300px" class="img-fluid"></a>
+                    <a href="fundamental2.php"><img src="img/03.png" width="300px" class="img-fluid" id="logo3"></a>
                 </div>
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="ensinoMedio.php"><img src="img/04.png" width="300px" class="img-fluid"></a>
+                    <a href="ensinoMedio.php"><img src="img/04.png" width="300px" class="img-fluid" id="logo4"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="terceirao.php"><img src="img/05.png" width="300px" class="img-fluid"/></a>
+                    <a href="terceirao.php"><img src="img/05.png" width="300px" class="img-fluid" id="logo5"/></a>
                 </div>                
             </div>
         </div>
@@ -304,13 +336,27 @@
                         <h6><br/>COLÉGIO IMACULADA CONCEIÇÃO</h6>
                         <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="rodaLinks">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
                         <h6><br/>Níveis de Ensino</h6>
-                        <a href="educacaoInfantil.php">Educação Infantil</a><br/>
-                        <a href="fundamental1.php">Fundamental I</a><br/>
-                        <a href="fundamental2.php">Fundamental II</a><br/>
-                        <a href="ensinoMedio.php">Ensino Médio</a><br/>
-                        <a href="terceirao.php"><!--<img src="img/05.png" class="img-fluid"/>-->Terceirão</a>
+                        <div class="justify-content-center">
+                            <div id="rodaLinks">
+                                <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
+                                   onmouseout="hover(this, 2, 'OT')"><img src="img/01C.png" 
+                                                                       height="30px"/>Educação Infantil</a><br/>
+                                <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="img/02C.png" 
+                                                                       height="30px"/>Fundamental I</a><br/>
+                                <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="img/03C.png" 
+                                                                       height="30px"/> Fundamental II</a><br/>
+                                <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="img/04C.png" 
+                                                                       height="30px"/>Ensino Médio</a><br/>
+                                <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="img/05C.png" 
+                                                                       height="30px"/>Terceirão</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                         <h6><br/>Fale Conosco</h6>
@@ -319,10 +365,13 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                         <h6><br/>Redes Sociais</h6>
-                        <a href="https://www.facebook.com/ciccolegioimaculada">
-                            <span>@ciccolegioimaculada</span>
-                            <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
-                        </a>
+                        <div class="linkFace" onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
+                            <a href="https://www.facebook.com/ciccolegioimaculada" 
+                               onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')"> 
+                                <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
+                                <!--@ciccolegioimaculada-->
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

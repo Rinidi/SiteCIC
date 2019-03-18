@@ -123,8 +123,12 @@ nav#navPrimaria{
     /*background-color: rgba(95, 120, 145, 1);*/
 }
 /*FIM Navs Primarias*/
-div#rodaLinks{
+div#rodaNiveis{
     text-align: center;
+}
+div#rodaLinks{
+    text-align: left;
+    padding-left: 20%;
 }
 div#contNav{
 
@@ -154,6 +158,24 @@ button#btnForm{
 }
 a#textNav{
     color: #46586c; 
+}
+img{
+    -webkit-transition: all 0.3s ease-in;
+}
+img#logo1:hover{
+    -webkit-transform: scale(1.3);
+}
+img#logo2:hover{
+    -webkit-transform: scale(1.3);
+}
+img#logo3:hover{
+    -webkit-transform: scale(1.3);
+}
+img#logo4:hover{
+    -webkit-transform: scale(1.3);
+}
+img#logo5:hover{
+    -webkit-transform: scale(1.3);
 }
 footer{	
     width: 100%;
