@@ -1,4 +1,9 @@
+@font-face{
+    font-family: Berlim Sans FB;
 
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("../includes/fonts/BRLNSB.tff");
+}
 @media screen and (max-width: 600px){
     div.nav2{
         display: none;
@@ -47,10 +52,37 @@ a{
     text-align: center;
 
 }
+
+h3.TInfra{
+    color: #094478;
+    text-align: center;
+    font-size: 35px;
+    font-family: Berlin Sans FB;
+}
+
+div.botao{
+    text-align:center;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 165, 56, 1);
+}
+a.botao{
+    color: #363636;
+    font-family: Franklin Gothic;
+    text-decoration: none;
+}
+h3.title{
+    color: rgba(255, 165, 56, 1);
+}
 p.rodape{
     font-size: 14px;
     text-align: center;
 }
+
 .img-responsive {
     margin: 0;
 }

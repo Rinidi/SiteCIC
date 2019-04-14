@@ -11,9 +11,9 @@
         </group>
         <group name="AulasPHP">
             <file>file:/C:/xampp/htdocs/SiteCIC/css/estilo.css</file>
-            <file>file:/C:/xampp/htdocs/SiteCIC/escola.php</file>
-            <file>file:/C:/xampp/htdocs/SiteCIC/infraestrutura.php</file>
-            <file>file:/C:/xampp/htdocs/SiteCIC/educacaoInfantil.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/js/estilo.js</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/infraestrutura.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/infra/labInfo.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/index.php</file>
         </group>
     </open-files>

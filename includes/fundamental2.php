@@ -4,72 +4,72 @@
         <title></title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/estilo.css">
     </head>
     <body>
         <div class="nav2">
             <!--Navbar secundaria com transparencia-->
             <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
                 <div id="contNav" class="container justify-content-center">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="80px"></a>
-                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo2.png" height="50px"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="../index.php"><img src="../img/Escola-Principal.png" height="80px"></a>
+                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="../img/positivo2.png" height="50px"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarText">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="index.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">Home</a>
+                                <a id="textNav" class="nav-link" href="../index.php" 
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="textNav" class="nav-link dropdown-toggle"
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" 
-                                   onmouseout="hover(this, 1, 'OT')">
+                                   aria-expanded="false" onmousemove="dentro(this)" 
+                                   onmouseout="fora(this)">
                                     Sobre Nós
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="includes/escola.php">A escola</a>
-                                    <a class="dropdown-item" href="includes/matricula.php">Matrícula</a>
+                                    <a class="dropdown-item" href="escola.php">A escola</a>
+                                    <a class="dropdown-item" href="matricula.php">Matrícula</a>
                                     <!-- <a class="dropdown-item" href="#">Regimento</a> -->
-                                    <a class="dropdown-item" href="includes/infraestrutura.php">Infraestrutura</a>
+                                    <a class="dropdown-item" href="infraestrutura.php">Infraestrutura</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="textNav" class="nav-link dropdown-toggle" 
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                   aria-expanded="false" onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Educação
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="includes/educacaoInfantil.php">Educação Infantil</a>
-                                    <a class="dropdown-item" href="includes/fundamental1.php">Fundamental I</a>
-                                    <a class="dropdown-item" href="includes/fundamental2.php">Fundamental II</a>
-                                    <a class="dropdown-item" href="includes/ensinoMedio.php">Ensino Médio</a>
-                                    <a class="dropdown-item" href="includes/terceirao.php">Curso Terceirão</a>
+                                    <a class="dropdown-item" href="educacaoInfantil.php">Educação Infantil</a>
+                                    <a class="dropdown-item" href="fundamental1.php">Fundamental I</a>
+                                    <a class="dropdown-item" href="fundamental2.php">Fundamental II</a>
+                                    <a class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
+                                    <a class="dropdown-item" href="terceirao.php">Terceirão</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="includes/eventos.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                <a id="textNav" class="nav-link" href="eventos.php" 
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Eventos
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="#" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Trabalhe conosco
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="includes/faleConosco.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                <a id="textNav" class="nav-link" href="faleConosco.php" 
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Fale conosco
                                 </a>
                             </li>
@@ -87,14 +87,14 @@
                         <div class="row">
                             <div class="col-6">
                                 <li class="nav-item">
-                                    <img src="img/cel.png" alt="logo Telefone" height="20px">
+                                    <img src="../img/cel.png" alt="logo Telefone" height="20px">
                                     <span class="tel">(35)3641-1577</span>
                                 </li>
                             </div>
                             <div class="col-6">
                                 <li class="nav-item">
                                     <a class="pais" href="#">
-                                        <img src="img/pessoa.png" alt="logo pessoa" height="20px">
+                                        <img src="../img/pessoa.png" alt="logo pessoa" height="20px">
                                         Pais e Alunos
                                     </a>
                                 </li>
@@ -105,7 +105,6 @@
             </nav>
         </div>
         <!-- FIM Navbar Primária com cor Sólida-->
-
         <!--Navbar que aparece em 600px com cor Sólida-->
         <div class="nav1fixa">
             <nav class="navbar navbar-expand-lg" id="navPrimaria">
@@ -114,14 +113,14 @@
                         <div class="row">
                             <div class="col-6">
                                 <li class="nav-item">
-                                    <img src="img/cel.png" alt="logo Telefone" height="20px">
+                                    <img src="../img/cel.png" alt="logo Telefone" height="20px">
                                     <span class="tel">(35)3641-1577</span>
                                 </li>
                             </div>
                             <div class="col-6">
                                 <li class="nav-item">
                                     <a class="pais" href="#">
-                                        <img src="img/pessoa.png" alt="logo pessoa" height="20px">
+                                        <img src="../img/pessoa.png" alt="logo pessoa" height="20px">
                                         Pais e Alunos
                                     </a>
                                 </li>
@@ -138,62 +137,63 @@
             <!--Navbar secundaria com transparencia-->
             <nav id="" class="navbar navbar-dark ">                
                 <div id="contNav" class="container justify-content-center" style="margin-top: 0px;">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="80px"></a>
-                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo2.png" height="50px"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText2" aria-controls="navbarText2" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="../index.php"><img src="../img/Escola-Principal.png" height="80px"></a>
+                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="../img/positivo2.png" height="50px"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarText2" aria-controls="navbarText2" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarText2">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="index.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">Home</a>
+                                <a id="textNav" class="nav-link" href="../index.php" 
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="textNav" class="nav-link dropdown-toggle"
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" 
-                                   onmouseout="hover(this, 1, 'OT')">
+                                   aria-expanded="false" onmousemove="dentro(this)" 
+                                   onmouseout="fora(this)">
                                     Sobre Nós
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="includes/escola.php">A escola</a>
-                                    <a class="dropdown-item" href="includes/matricula.php">Matrícula</a>
+                                    <a class="dropdown-item" href="escola.php">A escola</a>
+                                    <a class="dropdown-item" href="matricula.php">Matrícula</a>
                                     <!-- <a class="dropdown-item" href="#">Regimento</a> -->
-                                    <a class="dropdown-item" href="includes/infraestrutura.php">Infraestrutura</a>
+                                    <a class="dropdown-item" href="infraestrutura.php">Infraestrutura</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="textNav" class="nav-link dropdown-toggle" 
                                    href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                   aria-expanded="false" onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Educação
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="/includes/educacaoInfantil.php">Educação Infantil</a>
-                                    <a class="dropdown-item" href="includes/fundamental1.php">Fundamental I</a>
-                                    <a class="dropdown-item" href="includes/fundamental2.php">Fundamental II</a>
-                                    <a class="dropdown-item" href="includes/ensinoMedio.php">Ensino Médio</a>
-                                    <a class="dropdown-item" href="includes/terceirao.php">Terceirão</a>
+                                    <a class="dropdown-item" href="educacaoInfantil.php">Educação Infantil</a>
+                                    <a class="dropdown-item" href="fundamental1.php">Fundamental I</a>
+                                    <a class="dropdown-item" href="fundamental2.php">Fundamental II</a>
+                                    <a class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
+                                    <a class="dropdown-item" href="terceirao.php">Terceirão</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="includes/eventos.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                <a id="textNav" class="nav-link" href="eventos.php" 
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Eventos
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a id="textNav" class="nav-link" href="#" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Trabalhe conosco
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="includes/faleConosco.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                <a id="textNav" class="nav-link" href="faleConosco.php" 
+                                   onmousemove="dentro(this)" onmouseout="fora(this)">
                                     Fale conosco
                                 </a>
                             </li>
@@ -203,19 +203,30 @@
             </nav>
         </div>
         <!--Aqui termina a navbar fixa escondida que aparece só na tela de 600px;-->
-
         <!--Carrosel Inicio da Página-->
         <div id="car">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/slide1.svg" alt="First slide">
+                        <img class="d-block w-100" src="../img/fundamental2/1.jpg" alt="Sala de aula com crianças">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Foto referente ao ensino fundamental II</h5>
+                                <p>*Comentário a mais sobre ao ensino fundamental II na instituição*</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slide2.svg" alt="Second slide">
+                        <img class="d-block w-100" src="../img/fundamental2/5.jpg" alt="Sala de aula com alunos">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Foto referente ao ensino fundamental II</h5>
+                                <p>*Comentário a mais sobre ao ensino fundamental II na instituição*</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slide3.svg" alt="Third slide">
+                        <img class="d-block w-100" src="../img/fundamental2/3.jpg" alt="Sala de aula com alunos">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Foto referente ao ensino fundamental II</h5>
+                                <p>*Comentário a mais sobre ao ensino fundamental II na instituição*</p>
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -229,61 +240,10 @@
             </div>
         </div>
         <!--FIM Carrosel Inicio da Página-->
-        <div id="divicons" class="container">
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="educacaoInfantil.php"><img src="img/01.png" width="300px" class="img-fluid" id="logo1"></a>
-                </div>
-                <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="fundamental1.php"><img src="img/02.png" width="300px" class="img-fluid" id="logo2"></a>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="fundamental2.php"><img src="img/03.png" width="300px" class="img-fluid" id="logo3"></a>
-                </div>
-                <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="ensinoMedio.php"><img src="img/04.png" width="300px" class="img-fluid" id="logo4"></a>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="terceirao.php"><img src="img/05.png" width="300px" class="img-fluid" id="logo5"/></a>
-                </div>                
-            </div>
-        </div>
-        <article class="formu">
-            <div id="forms"class="container">
-                <div class="row justify-content-end">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                        <h1>TEXTO TEXTO</h1>
-                        <h2>TEXTO TEXTO TEXTO</h2>
-                        <p>(TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO)</p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                        <form class="textForm">
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Nome</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">DDD+Telefone</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XX)XXXX-XXXX">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Mensagem</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <button type="submit" class="btn btn-dark" id="btnForm">Enviar</button>
-                            </div>
-                        </form>
-                    </div>  
-                </div>
+        <article>
+            <div class="container">
+                <h1>ENSINO FUNDAMENTAL II</h1>
+                <h3>Período letivo dos alunos</h3>
             </div>
         </article>
         <footer>
@@ -297,20 +257,20 @@
                         <h6><br/>Níveis de Ensino</h6>
                         <div class="justify-content-center">
                             <div id="rodaLinks">
-                                <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/01C.png" 
+                                <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
+                                   onmouseout="hover(this, 2, 'OT')"><img src="../img/01C.png" 
                                                                        height="30px"/>Educação Infantil</a><br/>
-                                <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/02C.png" 
+                                <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="../img/02C.png" 
                                                                        height="30px"/>Fundamental I</a><br/>
-                                <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/03C.png" 
+                                <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="../img/03C.png" 
                                                                        height="30px"/> Fundamental II</a><br/>
-                                <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/04C.png" 
+                                <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="../img/04C.png" 
                                                                        height="30px"/>Ensino Médio</a><br/>
-                                <a href="includes/terceirao.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/05C.png" 
+                                <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" 
+                                   onmouseout="hover(this, 2, 'OT')"><img src="../img/05C.png" 
                                                                        height="30px"/>Terceirão</a>
                             </div>
                         </div>
@@ -325,7 +285,7 @@
                         <div class="linkFace" onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
                             <a href="https://www.facebook.com/ciccolegioimaculada" 
                                onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')"> 
-                                <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
+                                <img class="rounded" src="../img/fb.png" alt="Logo Facebook" height="35px" />
                                 <!--@ciccolegioimaculada-->
                             </a>
                         </div>
@@ -341,9 +301,9 @@
         </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="jquery/dist/jquery.js"></script>
-        <script src="popper.js/dist/popper.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/estilo.js"></script>
+        <script src="../js/estilo.js"></script>
+        <script src="../jquery/dist/jquery.js"></script>
+        <script src="../popper.js/dist/popper.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
     </body>
 </html>
