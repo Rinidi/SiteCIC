@@ -207,17 +207,20 @@
         <br/><br/>
         <br/><br/>
         <article>
-            <h3>Laboratório de Informática</h3>
-            <div class="container justify-content-centerS">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-6">
-                        <img class="img-fluid" src="../../img/infraestrutura/LabInfo/1.jpg"/>
+            <div class="container">
+                <h3>Quadra</h3>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
+                        <img id="img-infra" class="img-thumbnail" alt="Imagem quadra vazia"
+                             src="../../img/infraestrutura/quadra/3.JPG">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-6">
-                        <img class="img-fluid" src="../../img/infraestrutura/LabInfo/2.jpg"/>
+                    <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
+                        <img id="img-infra" class="img-thumbnail" alt="Imagem quadra vazia"
+                             src="../../img/infraestrutura/quadra/2.JPG">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-6">
-                        <img class="img-fluid" src="../../img/infraestrutura/LabInfo/3.jpg"/>
+                    <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
+                        <img id="img-infra" class="img-thumbnail" alt="Imagem quadra vazia"
+                             src="../../img/infraestrutura/quadra/1.JPG">
                     </div>
                 </div>
             </div>

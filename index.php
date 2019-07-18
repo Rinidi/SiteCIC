@@ -232,28 +232,28 @@
         <div id="divicons" class="container">
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="educacaoInfantil.php"><img src="img/01.png" width="300px" class="img-fluid" id="logo1"></a>
+                    <a href="educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
                 </div>
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="fundamental1.php"><img src="img/02.png" width="300px" class="img-fluid" id="logo2"></a>
+                    <a href="fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="fundamental2.php"><img src="img/03.png" width="300px" class="img-fluid" id="logo3"></a>
+                    <a href="fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
                 </div>
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="ensinoMedio.php"><img src="img/04.png" width="300px" class="img-fluid" id="logo4"></a>
+                    <a href="ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="terceirao.php"><img src="img/05.png" width="300px" class="img-fluid" id="logo5"/></a>
+                    <a href="terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5"/></a>
                 </div>                
             </div>
         </div>
         <article class="formu">
-            <div id="forms"class="container">
+            <div id="forms" class="container">
                 <div class="row justify-content-end">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
                         <h1>TEXTO TEXTO</h1>
@@ -322,11 +322,12 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                         <h6><br/>Redes Sociais</h6>
-                        <div class="linkFace" onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
-                            <a href="https://www.facebook.com/ciccolegioimaculada" 
-                               onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')"> 
-                                <img class="rounded" src="img/fb.png" alt="Logo Facebook" height="35px" />
-                                <!--@ciccolegioimaculada-->
+                        <div class="linkFace">
+                            <a id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada">
+                                <div onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
+                                    <img id="logoFace" src="img/fb.png" alt="Logo Facebook" height="35px"/>
+                                    @ciccolegioimaculada
+                                </div>
                             </a>
                         </div>
                     </div>

@@ -245,7 +245,7 @@
                                 <img class="img-thumbnail" src="../img/infraestrutura/Biblioteca/3.jpg">
                             </div>
                             <div class="col-12"><br/>
-                                <a class="botao" href="infra/area1.php" role="button">
+                                <a class="botao" href="infra/biblioteca.php" role="button">
                                     <div class="botao" onmousemove="overButton(this, 'in')"
                                          onmouseout="overButton(this, 'out')">
                                         Clique aqui para ver
@@ -267,7 +267,7 @@
                                 <img class="img-thumbnail" src="../img/infraestrutura/LabCiencias/2.jpg">
                             </div>
                             <div class="col-12"><br/>
-                                <a class="botao" href="infra/area1.php" role="button">
+                                <a class="botao" href="infra/labCiencias.php" role="button">
                                     <div class="botao" onmousemove="overButton(this, 'in')"
                                          onmouseout="overButton(this, 'out')">
                                         Clique aqui para ver
@@ -290,7 +290,7 @@
                                 <img class="img-thumbnail" src="../img/infraestrutura/Parquinho/1.jpg">
                             </div>
                             <div class="col-12"><br/>
-                                <a class="botao" href="infra/area1.php" role="button">
+                                <a class="botao" href="infra/parquinho.php" role="button">
                                     <div class="botao" onmousemove="overButton(this, 'in')"
                                          onmouseout="overButton(this, 'out')">
                                         Clique aqui para ver
@@ -313,7 +313,7 @@
                                 <img class="img-thumbnail" src="../img/infraestrutura/Multimidia/1.jpg">
                             </div>
                             <div class="col-12"><br/>
-                                <a class="botao" href="infra/area1.php" role="button">
+                                <a class="botao" href="infra/multimidia.php" role="button">
                                     <div class="botao" onmousemove="overButton(this, 'in')"
                                          onmouseout="overButton(this, 'out')">
                                         Clique aqui para ver
@@ -336,7 +336,7 @@
                                 <img class="img-thumbnail" src="../img/infraestrutura/Quadra/2.jpg">
                             </div>
                             <div class="col-12"><br/>
-                                <a class="botao" href="infra/area1.php" role="button">
+                                <a class="botao" href="infra/quadra.php" role="button">
                                     <div class="botao" onmousemove="overButton(this, 'in')"
                                          onmouseout="overButton(this, 'out')">
                                         Clique aqui para ver

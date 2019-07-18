@@ -203,74 +203,44 @@
             </nav>
         </div>
         <!--Aqui termina a navbar fixa escondida que aparece só na tela de 600px;-->
-        <br/><br/>
-        <br/><br/>
-        <br/><br/>
-        <br/><br/>
-        <article>
-            <div class="container">
-                <h1>EVENTOS</h1>
-                <br/><br/>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
-                        <a href="evento1.php"> 
-                            <img class="img-fluid" src="../img/fotos/1.jpg" alt="template de foto 1"/>                          
-                            <p>Evento 1</p>
-                        </a>
+        <div class="container" id="galery">
+            <div class="row">
+                <section id="galery" class="py-5 border border-secondary rounded">
+                    <div class="container">
+                        <h1 style="text-align: center; letter-spacing: 2px;">EVENTOS</h1>
+                        <br/><br/>
+                        <div class="row mb-4  justify-content-center">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
+                                <a href="eventos/evento1.php"> 
+                                    <img class="img-fluid" src="../img/eventos/evento1/0A.jpg" 
+                                         alt="Alunas mexendo com botânica" style="border-radius: 15px;"/>                          
+                                    <h5 class="TEventos" style="margin-top: 10px;">
+                                        Aula exploratória sobre classificação botânica</h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento2.php">
+                                    <img class="img-fluid" src="../img/eventos/evento2/0.jpg"
+                                         alt="Crianças em frente a mural de mosaico" 
+                                         style="border-radius: 10px;"/>
+                                    <h5 class="TEventos">
+                                        Cidade na qual moramos</h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento3.php">
+                                    <img class="img-fluid" src="../img/eventos/evento3/0.jpg"
+                                         alt="Alunos em frente ao portal da faculdade
+                                         de medicina" style="border-radius: 10px;"/>
+                                    <h5 class="TEventos">
+                                        Visita à Faculdade de Medicida de Itajubá</h5>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                        <a href="evento2.php">
-                            <img class="img-fluid" src="../img/fotos/2.jpg" alt="template de foto 2"/>
-                            <p>Evento 2</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                        <a href="evento3.php">
-                            <img class="img-fluid" src="../img/fotos/3.jpg" alt="template de foto 3" />
-                            <p>Evento 3</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
-                        <a href="evento4.php"> 
-                            <img class="img-fluid" src="../img/fotos/4.jpg" alt="template de foto 4"/>                          
-                            <p>Evento 4</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                        <a href="evento5.php">
-                            <img class="img-fluid" src="../img/fotos/5.jpg" alt="template de foto 5"/>
-                            <p>Evento 5</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                        <a href="evento6.php">
-                            <img class="img-fluid" src="../img/fotos/6.jpg" alt="template de foto 6" />
-                            <p>Evento 6</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
-                        <a href="evento7.php"> 
-                            <img class="img-fluid" src="../img/fotos/7.jpg" alt="template de foto 7"/>                          
-                            <p>Evento 7</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                        <a href="evento8.php">
-                            <img class="img-fluid" src="../img/fotos/8.jpg" alt="template de foto 8"/>
-                            <p>Evento 8</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                        <a href="evento9.php">
-                            <img class="img-fluid" src="../img/fotos/9.jpg" alt="template de foto 9" />
-                            <p>Evento 9</p>
-                        </a>
-                    </div>
-                </div>
+                </section>
             </div>
-            <br/><br/>
-            <br/><br/>
-        </article>
+        </div>
         <footer>
             <div id="dataFooter" class="container">
                 <div class="row">
@@ -284,19 +254,19 @@
                             <div id="rodaLinks">
                                 <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/01C.png" 
-                                                                       height="30px"/>Educação Infantil</a><br/>
+                                                                       height="30px"/> Educação Infantil</a><br/>
                                 <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/02C.png" 
-                                                                       height="30px"/>Fundamental I</a><br/>
+                                                                       height="30px"/> Fundamental I</a><br/>
                                 <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/03C.png" 
                                                                        height="30px"/> Fundamental II</a><br/>
                                 <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/04C.png" 
-                                                                       height="30px"/>Ensino Médio</a><br/>
+                                                                       height="30px"/> Ensino Médio</a><br/>
                                 <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/05C.png" 
-                                                                       height="30px"/>Terceirão</a>
+                                                                       height="30px"/> Terceirão</a>
                             </div>
                         </div>
                     </div>
