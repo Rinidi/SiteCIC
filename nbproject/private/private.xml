@@ -10,12 +10,20 @@
             <file>file:/C:/xampp/htdocs/SiteCIC/index.php</file>
         </group>
         <group name="AulasPHP">
-            <file>file:/C:/xampp/htdocs/SiteCIC/css/estilo.css</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/ensinoMedio.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/includes/eventos.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/includes/eventos/evento2.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/js/estilo.js</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/fundamental2.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/eventos/evento5.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/terceirao.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/css/estilo.css</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/fundamental1.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/includes/eventos/evento3.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/includes/eventos/evento1.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/includes/infraestrutura.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/eventos/evento4.php</file>
+            <file>file:/C:/xampp/htdocs/SiteCIC/includes/educacaoInfantil.php</file>
             <file>file:/C:/xampp/htdocs/SiteCIC/index.php</file>
         </group>
     </open-files>

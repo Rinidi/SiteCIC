@@ -205,27 +205,114 @@
         <!--Aqui termina a navbar fixa escondida que aparece só na tela de 600px;-->
 
         <!--Carrosel Inicio da Página-->
-        <div id="car">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/slide1.svg" alt="First slide">
+        <div id="car" class="row justify-content-center">
+            <div class="col-10">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <img class="d-block w-100" src="img/escola.jpg" alt="First slide">
+                                    <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                        <h5>CIC - Colégio Imaculada Conceição</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <a href="includes/eventos/evento1.php">
+                                        <img class="d-block w-100" src="img/eventos/evento1/0A.jpg" alt="First slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5>Aula exploratória sobre classificação botânica</h5>
+                                            <p>A turma do 7º ano do E.F. foi recebida gentilmente pela nossa vizinha Adriana, 
+                                                que os acolheu na sua horta para que os alunos tivessem uma...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <a href="includes/eventos/evento2.php">
+                                        <img class="d-block w-100" src="img/eventos/evento2/0.jpg" alt="Second slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5>Cidade no qual moramos</h5>
+                                            <p>Trabalho realizado pela professora Amanda 
+                                                do Grupo 5 e com a carinhosa ajuda da 
+                                                Secretária de Cultura Rosaura Mª Rezende 
+                                                Faria Hermeto.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <a href="includes/eventos/evento3.php">
+                                        <img class="d-block w-100" src="img/eventos/evento3/0.jpg" alt="Third slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5>Visita à Faculdade de Medicida de Itajubá</h5>
+                                            <p>Os alunos do Ensino Médio foram visitar a Faculdade 
+                                                de Medicina de Itajubá juntamente com o professor 
+                                                Diego de Biologia e...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <a href="includes/eventos/evento4.php">
+                                        <img class="d-block w-100" src="img/eventos/evento4/0.jpg" alt="Third slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5>Vivenciando a Semana do Meio Ambiente</h5>
+                                            <p>Atividades realizadas pelos alunos do G4 e G5 
+                                                das tias Ana Rita e Amanda. Parabéns pelo 
+                                                excelente trabalho!</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <a href="includes/eventos/evento5.php">
+                                        <img class="d-block w-100" src="img/eventos/evento5/0E.jpg" alt="Third slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5>Dia do Livro Infantil - 18 de abril</h5>
+                                            <p>Alunos do Grupo 5 - Tia Amanda
+                                                Momento de brincadeira, leitura e muito aprendizado.
+                                                "A leitura de um bom livro é um diálogo incessante: 
+                                                o livro fala e a alma responde" - André Maurois</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slide2.svg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slide3.svg" alt="Third slide">
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
         <!--FIM Carrosel Inicio da Página-->

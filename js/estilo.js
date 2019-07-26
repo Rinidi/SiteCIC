@@ -61,3 +61,22 @@ function overButton(bt, op){
         bt.style = "background-color: rgba(255, 165, 56, 1);";
     }
 }
+function expand(sentido, e, div, img, bt){
+    if(sentido === 'ex'){
+        div.style.margin = "-2px;"
+        div.style.borderRadius = "20px";
+        /*div.style.backgroundColor = "rgba(250, 250, 250, 0.7)";*/
+        document.getElementById(bt).style.display = "block";
+        document.getElementById(img).style.filter = "brightness(250%)";
+        document.getElementById(img).style.filter = "invert(25%)";
+        document.getElementById(e).style.height = "150px";
+    }else if(sentido === 're'){
+        div.style.margin = "-2px;"
+        div.style.borderRadius = "20px";
+        /*div.style.backgroundColor = "rgba(250, 250, 250, 0.0)";*/
+        document.getElementById(bt).style.display = "none";
+        document.getElementById(img).style.filter = "brightness(100%)";
+        document.getElementById(img).style.filter = "invert(0%)";
+        document.getElementById(e).style.height = "0px";
+    }
+}

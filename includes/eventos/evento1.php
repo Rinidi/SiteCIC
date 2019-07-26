@@ -210,7 +210,7 @@
         <div class="container" id="galery">
             <div class="row">
                 <!--Galeria de Fotos-->
-                <section id="galery" class="py-5 border border-secondary rounded" style="border-radius: 15px;">
+                <section id="galery" class="py-5" style="border-radius: 15px;">
                     <div class="container">
                         <h4 class="TEventos">Aula exploratória sobre classificação botânica</h4>
 

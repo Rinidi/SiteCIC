@@ -205,7 +205,7 @@
         <!--Aqui termina a navbar fixa escondida que aparece só na tela de 600px;-->
         <!-- FIM Navbar Primária com cor Sólida-->
         <!--Carrosel Inicio da Página-->
-        <div id="car">
+        <!--<div id="car">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -240,13 +240,24 @@
                 </a>
             </div>
         </div>
-        <!--FIM Carrosel Inicio da Página-->
         <article>
             <div class="container">
                 <h1>EDUCAÇÃO INFANTIL</h1>
                 <h3>Maternal I ao Jardin II</h3>
             </div>
         </article>
+        -->
+        <!--FIM Carrosel Inicio da Página-->
+        <div class="row justify-content-center" style="margin-top: 10%;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <img class="img-fluid" src="../img/Manu.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <footer>
             <div id="dataFooter" class="container">
                 <div class="row">

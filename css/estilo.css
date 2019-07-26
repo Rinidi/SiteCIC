@@ -26,8 +26,6 @@
     div.barra2{
         font-size: 12px;
     }
-    div#car{
-    }
 }
 @media screen and (min-width:600px){
     div.nav1fixa{
@@ -36,6 +34,7 @@
     div.nav2fixa{
         display: none;
     }
+    
 }
 h1{
     color: #FF9708;
@@ -107,6 +106,35 @@ p.rodape{
 p.txtEvt{
     text-align: center;
 }
+p.textDetalhes{
+    color: #363636;
+    text-align: justify;
+    font-family: Arial;
+    height: 0px;
+    overflow: hidden;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.capa {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+p.verMais{
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: bold;
+    color: lightgrey;
+    position: relative;
+    left: 10px;
+    top: -40px;
+    display: none;
+    margin-bottom: -42px;
+}
 .img-responsive {
     margin: 0;
 }
@@ -115,7 +143,7 @@ article.formu{
     background: url(../img/fundos/fundo5T.jpg);
 }
 body.formu{
-    background: url(../img/fundos/fundo5T.jpg);	
+    /*background: url(../img/fundos/fundo5T.jpg);*/	
 }
 /*Divs Barras*/
 div.barra{
@@ -181,6 +209,9 @@ nav#navPrimaria{
     /*background-color: rgba(95, 120, 145, 1);*/
 }
 /*FIM Navs Primarias*/
+p#txtDt1{
+    
+}
 div#rodaNiveis{
     text-align: center;
 }
@@ -193,7 +224,8 @@ div#contNav{
     margin-top: 40px;
 }
 div#car{
-    background-color: rgba(0,0,0,0.4);
+   background-color: rgba(40, 54, 68, 1);
+   margin-top: 40px;
 }
 div#divicons{
     margin-top: 80px;
@@ -243,8 +275,13 @@ div#galery{
     margin-top: 200px;
     margin-bottom: 100px;
 }
+#carouselCaption{
+    background-color: rgba(43, 64, 85, 0.8);
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
 section#galery{
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(225, 225, 225, 0.2);
 }
 footer{	
     width: 100%;
