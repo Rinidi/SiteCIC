@@ -219,7 +219,7 @@
                                 <p>Texto Sobre o Laboratório de Informática</p>
                             </div>
                             <div class="col-12">
-                                <img class="img-thumbnail" src="../img/infraestrutura/LabInfo/2.jpg"/>
+                                <img class="img-thumbnail" src="../img/infraestrutura/lab-info/2.JPG"/>
                             </div>
                             <div class="col-12"><br/>
                                 <a class="botao" href="infra/labInfo.php" role="button">
@@ -242,7 +242,7 @@
                                 <p>Texto sobre a área citada acima</p>
                             </div>
                             <div class="col-12">
-                                <img class="img-thumbnail" src="../img/infraestrutura/Biblioteca/3.jpg">
+                                <img class="img-thumbnail" src="../img/infraestrutura/biblioteca/3.JPG">
                             </div>
                             <div class="col-12"><br/>
                                 <a class="botao" href="infra/biblioteca.php" role="button">
@@ -264,7 +264,7 @@
                                 <p>Texto sobre a área citada acima</p>
                             </div>
                             <div class="col-12">
-                                <img class="img-thumbnail" src="../img/infraestrutura/LabCiencias/2.jpg">
+                                <img class="img-thumbnail" src="../img/infraestrutura/lab-ciencias/2.JPG">
                             </div>
                             <div class="col-12"><br/>
                                 <a class="botao" href="infra/labCiencias.php" role="button">
@@ -287,7 +287,7 @@
                                 <p>Texto sobre a área citada acima</p>
                             </div>
                             <div class="col-12">
-                                <img class="img-thumbnail" src="../img/infraestrutura/Parquinho/1.jpg">
+                                <img class="img-thumbnail" src="../img/infraestrutura/parquinho/1.JPG">
                             </div>
                             <div class="col-12"><br/>
                                 <a class="botao" href="infra/parquinho.php" role="button">
@@ -310,7 +310,7 @@
                                 <p>Texto sobre a área citada acima</p>
                             </div>
                             <div class="col-12">
-                                <img class="img-thumbnail" src="../img/infraestrutura/Multimidia/1.jpg">
+                                <img class="img-thumbnail" src="../img/infraestrutura/multimidia/1.JPG">
                             </div>
                             <div class="col-12"><br/>
                                 <a class="botao" href="infra/multimidia.php" role="button">
@@ -333,7 +333,7 @@
                                 <p>Texto sobre a área citada acima</p>
                             </div>
                             <div class="col-12">
-                                <img class="img-thumbnail" src="../img/infraestrutura/Quadra/2.jpg">
+                                <img class="img-thumbnail" src="../img/infraestrutura/quadra/2.JPG">
                             </div>
                             <div class="col-12"><br/>
                                 <a class="botao" href="infra/quadra.php" role="button">

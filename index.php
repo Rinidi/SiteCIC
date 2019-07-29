@@ -14,7 +14,7 @@
             <!--Navbar secundaria com transparencia-->
             <nav id="navSecundaria" class="navbar fixed-top navbar-expand-lg navbar-dark ">                
                 <div id="contNav" class="container justify-content-center">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="80px"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal.png" height="70px"></a>
                     <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo2.png" height="50px"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -205,7 +205,7 @@
         <!--Aqui termina a navbar fixa escondida que aparece só na tela de 600px;-->
 
         <!--Carrosel Inicio da Página-->
-        <div id="car" class="row justify-content-center">
+        <div id="car" class="row justify-content-center" style="margin-top: 135px;">
             <div class="col-10">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -319,23 +319,23 @@
         <div id="divicons" class="container">
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
+                    <a href="includes/educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
                 </div>
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
+                    <a href="includes/fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-5">
-                    <a href="fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
+                    <a href="includes/fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
                 </div>
                 <div class="col-9 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
+                    <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-4">
-                    <a href="terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5"/></a>
+                    <a href="includes/terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5"/></a>
                 </div>                
             </div>
         </div>

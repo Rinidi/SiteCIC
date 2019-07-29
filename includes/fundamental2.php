@@ -203,6 +203,32 @@
             </nav>
         </div>
         <!--Aqui termina a navbar fixa escondida que aparece só na tela de 600px;-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 145px;">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/fundamental2/1.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/fundamental2/5.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/fundamental2/3.JPG" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         <!--Carrosel Inicio da Página-->
         <!--<div id="car">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -239,15 +265,6 @@
                 </a>
             </div>
         </div>
-        <article>
-            <div class="container">
-                <h1>ENSINO FUNDAMENTAL II</h1>
-                <h3>Período letivo dos alunos</h3>
-            </div>
-        </article>
-        -->
-        <!--FIM Carrosel Inicio da Página-->
-        
         <div class="row justify-content-center" style="margin-top: 10%;">
             <div class="container">
                 <div class="row justify-content-center">
@@ -257,6 +274,15 @@
                 </div>
             </div>
         </div>
+        -->
+        <!--FIM Carrosel Inicio da Página-->
+        
+        <article>
+            <div class="container">
+                <h1>ENSINO FUNDAMENTAL II</h1>
+                <h3>Período letivo dos alunos</h3>
+            </div>
+        </article>
         <footer>
             <div id="dataFooter" class="container">
                 <div class="row">

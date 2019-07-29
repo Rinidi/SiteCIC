@@ -212,15 +212,15 @@
                 <div class="row justify-content-center">
                     <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
                         <img id="img-infra" class="img-thumbnail" alt="Imagem"
-                             src="../../img/infraestrutura/LabCiencias/1.JPG">
+                             src="../../img/infraestrutura/lab-ciencias/1.JPG">
                     </div>
                     <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
                         <img id="img-infra" class="img-thumbnail" alt="Imagem"
-                             src="../../img/infraestrutura/LabCiencias/2.JPG">
+                             src="../../img/infraestrutura/lab-ciencias/2.JPG">
                     </div>
                     <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
                         <img id="img-infra" class="img-thumbnail" alt="Imagem"
-                             src="../../img/infraestrutura/LabCiencias/3.JPG">
+                             src="../../img/infraestrutura/lab-ciencias/3.JPG">
                     </div>
                 </div>
             </div>

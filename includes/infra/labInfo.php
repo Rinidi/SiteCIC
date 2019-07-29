@@ -212,13 +212,13 @@
                 <div class="container justify-content-centerS">
                     <div class="row justify-content-center">
                         <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
-                            <img id="img-infra" class="img-thumbnail" src="../../img/infraestrutura/LabInfo/1.jpg"/>
+                            <img id="img-infra" class="img-thumbnail" src="../../img/infraestrutura/lab-info/1.JPG"/>
                         </div>
                         <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
-                            <img id="img-infra" class="img-thumbnail" src="../../img/infraestrutura/LabInfo/2.jpg"/>
+                            <img id="img-infra" class="img-thumbnail" src="../../img/infraestrutura/lab-info/2.JPG"/>
                         </div>
                         <div class="col-10 col-sm-9 col-md-8 col-lg-7 col-xl-6">
-                            <img id="img-infra" class="img-thumbnail" src="../../img/infraestrutura/LabInfo/3.jpg"/>
+                            <img id="img-infra" class="img-thumbnail" src="../../img/infraestrutura/lab-info/3.JPG"/>
                         </div>
                     </div>
                 </div>
