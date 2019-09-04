@@ -34,7 +34,7 @@
     div.nav2fixa{
         display: none;
     }
-    
+
 }
 h1{
     color: #FF9708;
@@ -140,10 +140,12 @@ p.verMais{
 }
 article.formu{
     background-size: 100% auto;
-    background: url(../img/fundos/fundo5T.jpg);
-}
-body.formu{
-    /*background: url(../img/fundos/fundo5T.jpg);*/	
+    background-image: url("../img/fundos/fundo5T.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #e4e1e1;
+
+    padding-bottom: 20px;
 }
 /*Divs Barras*/
 div.barra{
@@ -161,16 +163,22 @@ div.barra2{
 }
 /*FIM Divs Barras*/
 span.tel{
-    color: #46586c;
-    font-size: 14px;
+    color: #073F66;
+    font-size: 11pt;
     font-weight: bold;
 }
 a.pais{
-    color: #46586c;
-    font-size: 14px;
+    color: #073F66;
     font-weight: bold;
+    font-size: 11pt;
     text-transform: uppercase;
     margin-left: 10px;
+}
+.txtRodape{
+    color: #FF9708;
+    font: bold 12pt Arial;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #0f2f46;
 }
 form.textForm{
     color:rgba(37, 38, 42,0.7);
@@ -182,22 +190,19 @@ img#img-infra{
     margin: 10px;
 }
 div#navbarText{
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 /*Navs Secundarias*/
 #navSecundaria{
-    background-color: rgba(255, 178, 69, 1);
-    /*background-color: rgba(255, 146, 56, 0.8);*/
-    /*background-color: rgba(102, 113, 126, 0.8);*/
-    /*background-color: rgba(95, 120, 145, 0.8);*/
-    font-weight: bold;
+
+    background-color: rgba(46, 83, 109, 1);
     text-align: justify;
     letter-spacing: 0px;
     word-spacing: 0px;
     text-transform: capitalize;
-    font-family: Verdana;
+    font: normal 15pt Arial;
 }
 /*FIM Navs Secundarias*/
 
@@ -210,7 +215,7 @@ nav#navPrimaria{
 }
 /*FIM Navs Primarias*/
 p#txtDt1{
-    
+
 }
 div#rodaNiveis{
     text-align: center;
@@ -220,21 +225,27 @@ div#rodaLinks{
     padding-left: 20%;
 }
 div#contNav{
-
-    margin-top: 40px;
+    margin-bottom: -5px;
+}
+div#contCentro{
 }
 div#car{
-   background-color: rgba(40, 54, 68, 1);
-   margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #292929;
+    margin-top: 40px;
 }
 div#divicons{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+#iconSolo{
+    margin-top: 30px;
 }
 div#forms{
-    padding-top: 50px; 
-    padding-bottom: 20px;
-    background-color: rgba(255,255,255,0.3);
+    padding-left: 100px;
+    padding-top: 50px;
 }
 div#carousel-inner{
     height: 2000px;
@@ -248,25 +259,14 @@ button#btnForm{
     width: 100px;
 }
 a#textNav{
-    color: #46586c; 
+    margin-left: 40px;
+    color: whitesmoke;
+    font: bold 13pt Arial;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #0f2f46;
 }
 img{
     -webkit-transition: all 0.3s ease-in;
-}
-img#logo1:hover{
-    -webkit-transform: scale(1.3);
-}
-img#logo2:hover{
-    -webkit-transform: scale(1.3);
-}
-img#logo3:hover{
-    -webkit-transform: scale(1.3);
-}
-img#logo4:hover{
-    -webkit-transform: scale(1.3);
-}
-img#logo5:hover{
-    -webkit-transform: scale(1.3);
 }
 img#ftGallery{
     /*border-radius: 10px;*/

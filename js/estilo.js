@@ -8,7 +8,7 @@ function hover(x, op, tp) {
             case 1:
             //opção 1 é para o sombreamento das opções do menu
             {
-                x.style = "color: #6b747e;";
+                x.style = "color: gray;";
                 break;
             }
             case 2:
@@ -33,7 +33,7 @@ function hover(x, op, tp) {
             case 1:
             //opção 1 é para o sombreamento das opções do menu
             {
-                x.style = "color: #46586c;";
+                x.style = "color: whitesmoke;";
                 break;
             }
             case 2:
