@@ -93,6 +93,20 @@ a.botao{
     font-family: Franklin Gothic;
     text-decoration: none;
 }
+div.botaoVoltar{
+    text-align:center;
+    height: 50px;
+    width: 200px;
+    padding-top: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 165, 56, 1);
+}
+a.botaoVoltar{
+    color: #363636;
+    font: normal 22pt Franklin Gothic;
+    text-decoration: none;
+}
 p.rodape{
     font-size: 14px;
     text-align: center;
@@ -100,6 +114,7 @@ p.rodape{
 .titleInfra{
     color: #FF9708;
     font-family: Berlin Sans FB;
+    font-size: 25pt;
     text-transform: capitalize;
 }
 p.txtEvt{
@@ -278,6 +293,10 @@ a#textNav{
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #0f2f46;
 }
+#margin-top-bottom-md{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 img{
     -webkit-transition: all 0.3s ease-in;
 }
@@ -285,7 +304,6 @@ img#ftGallery{
     /*border-radius: 10px;*/
 }
 div#galery{
-    margin-top: 200px;
     margin-bottom: 100px;
 }
 #carouselCaption{
