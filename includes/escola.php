@@ -136,43 +136,44 @@
             <div id="dataFooter" class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                        <h6><br/>COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                        <h6 class="txtRodape"><br/>COLÉGIO IMACULADA CONCEIÇÃO</h6>
                         <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
-                        <h6><br/>Níveis de Ensino</h6>
-                        <div class="justify-content-center">
+                        <h6 class="txtRodape"><br/>Níveis de Ensino</h6>
+                        <div class="row justify-content-center">
                             <div id="rodaLinks">
-                                <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
+                                <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/01C.png" 
                                                                        height="30px"/>Educação Infantil</a><br/>
-                                <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
+                                <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/02C.png" 
                                                                        height="30px"/>Fundamental I</a><br/>
-                                <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
+                                <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/03C.png" 
                                                                        height="30px"/> Fundamental II</a><br/>
-                                <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
+                                <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/04C.png" 
                                                                        height="30px"/>Ensino Médio</a><br/>
-                                <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" 
+                                <a href="includes/terceirao.php" onmousemove="hover(this, 2, 'MV')" 
                                    onmouseout="hover(this, 2, 'OT')"><img src="../img/05C.png" 
                                                                        height="30px"/>Terceirão</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                        <h6><br/>Fale Conosco</h6>
+                        <h6 class="txtRodape"><br/>Fale Conosco</h6>
                         <p>Rua Capitão Almeida Vergueiro 37530-000 Brazópolis - MG</p><br/>
                         <p>Telefone:<br/> (35) 3641-1577</p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                        <h6><br/>Redes Sociais</h6>
-                        <div class="linkFace" onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
-                            <a href="https://www.facebook.com/ciccolegioimaculada" 
-                               onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')"> 
-                                <img class="rounded" src="../img/fb.png" alt="Logo Facebook" height="35px" />
-                                <!--@ciccolegioimaculada-->
+                        <h6 class="txtRodape"><br/>Redes Sociais</h6>
+                        <div class="linkFace">
+                            <a id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada">
+                                <div onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
+                                    <img id="logoFace" src="../img/fb.png" alt="Logo Facebook" height="35px"/>
+                                    @ciccolegioimaculada
+                                </div>
                             </a>
                         </div>
                     </div>

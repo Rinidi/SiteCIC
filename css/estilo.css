@@ -93,16 +93,15 @@ a.botao{
     font-family: Franklin Gothic;
     text-decoration: none;
 }
-
-h3.title{
-    color: rgba(255, 165, 56, 1);
-}
-
 p.rodape{
     font-size: 14px;
     text-align: center;
 }
-
+.titleInfra{
+    color: #FF9708;
+    font-family: Berlin Sans FB;
+    text-transform: capitalize;
+}
 p.txtEvt{
     text-align: center;
 }
@@ -186,7 +185,7 @@ a.pais{
     color: #FF9708;
     font: bold 12pt Arial;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px #0f2f46;
+    text-shadow: 0.5px 0.5px 0px #0f2f46;
 }
 form.textForm{
     color:rgba(37, 38, 42,0.7);
