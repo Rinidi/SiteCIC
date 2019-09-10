@@ -4,7 +4,7 @@
     /*Caso a fonte esteja na mesma pasta*/
     src: url("../includes/fonts/BRLNSB.tff");
 }
-@media screen and (max-width: 600px){
+/*@media screen and (max-width: 600px){
     div.nav2{
         display: none;
     }
@@ -35,7 +35,7 @@
         display: none;
     }
 
-}
+}*/
 h1{
     color: #FF9708;
     font-family: Berlin Sans FB;
@@ -142,9 +142,9 @@ article.formu{
     background-size: 100% auto;
     background-image: url("../img/fundos/fundo5T.jpg");
     background-repeat: no-repeat;
+    background-size: 1300px;
     background-position: bottom left;
     background-color: #e4e1e1;
-
     padding-bottom: 20px;
 }
 /*Divs Barras*/
@@ -166,6 +166,14 @@ span.tel{
     color: #073F66;
     font-size: 11pt;
     font-weight: bold;
+}
+.horizontal-divider{
+    height: 1;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-right: 1px solid white;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 a.pais{
     color: #073F66;
@@ -196,7 +204,6 @@ div#navbarText{
 
 /*Navs Secundarias*/
 #navSecundaria{
-
     background-color: rgba(46, 83, 109, 1);
     text-align: justify;
     letter-spacing: 0px;
@@ -222,7 +229,6 @@ div#rodaNiveis{
 }
 div#rodaLinks{
     text-align: left;
-    padding-left: 20%;
 }
 div#contNav{
     margin-bottom: -5px;
@@ -230,14 +236,13 @@ div#contNav{
 div#contCentro{
 }
 div#car{
-    margin-left: 50px;
-    border-radius: 20px;
+    border: solid 2px #0f2f46;
+    border-radius: 15px;
     background-color: #292929;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 div#divicons{
     margin-top: 40px;
-    margin-left: 30px;
 
 }
 #iconSolo{
@@ -258,8 +263,17 @@ div#dataFooter{
 button#btnForm{
     width: 100px;
 }
+#dropMenu{
+    text-align: center;
+    background-color: rgba(66, 103, 129, 0.9);
+}
+#textDropMenu{
+    color: whitesmoke;
+    font: normal 12pt Arial;
+    margin-bottom: 3px;
+    text-shadow: 1px 1px 2px #0f2f46;
+}
 a#textNav{
-    margin-left: 40px;
     color: whitesmoke;
     font: bold 13pt Arial;
     text-transform: uppercase;
