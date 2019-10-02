@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../css/bootstrap.css">
         <link rel="stylesheet" href="../css/estilo.css">
     </head>
-    <body>
+    <body id="Eventos">
         <div>
             <!--Navbar secundaria com transparencia-->
             <nav id="navSecundaria" class="navbar navbar-expand-lg navbar-dark ">                
@@ -102,104 +102,125 @@
             <div class="row">
                 <section id="galery" class="py-5">
                     <div class="container">
-                        <h1 style="text-align: center; letter-spacing: 2px;">EVENTOS</h1>
+                        <h1 style="text-align: center;">EVENTOS</h1>
                         <br/><br/>
-                        <div class="row mb-4  justify-content-center">
-                            <div id="divEvt1" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4" 
-                                 onmouseover="expand('ex', 'txtDt1', this, 'imgEvt1', 'vm1')" 
-                                 onmouseout="expand('re', 'txtDt1', this, 'imgEvt1', 'vm1')">                        
-                                <a href="eventos/evento1.php"> 
-                                    <img id="imgEvt1" class="img-fluid" src="../img/eventos/evento1/0A.jpg" 
-                                         alt="Alunas mexendo com botânica" style="border-radius: 15px;"/>
-                                    <p id="vm1" class="verMais">Ver mais</p>
-                                    <h5 class="TEventos" style="margin-top: 10px;">
-                                        Aula exploratória sobre classificação botânica</h5>
-                                    <div id="dt1" class="container">
-                                        <p id="txtDt1" class="textDetalhes">
-                                            A turma do 7º ano do E.F. foi recebida gentilmente pela nossa vizinha Adriana, 
-                                            que os acolheu na sua horta para que os alunos tivessem uma 
-                                            "Aula exploratória sobre classificação botânica" ministrada pelo
-                                            professor de Ciências Diego Moreira.
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div id="divEvt2" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4"
-                                 onmouseover="expand('ex', 'txtDt2', this, 'imgEvt2', 'vm2')" 
-                                 onmouseout="expand('re', 'txtDt2', this, 'imgEvt2', 'vm2')">
-                                <a href="eventos/evento2.php">
-                                    <img id="imgEvt2" class="img-fluid" src="../img/eventos/evento2/0.jpg"
-                                         alt="Crianças em frente a mural de mosaico" 
-                                         style="border-radius: 10px;"/>
-                                    <p id="vm2" class="verMais">Ver mais</p>
+                        <div class="row mb-4  justify-content-start">
+
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento13.php">
+                                    <img class="img-fluid" src="../img/eventos/evento13/0.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
                                     <h5 class="TEventos">
-                                        Cidade na qual moramos</h5>
-                                    <div id="dt2" class="container">
-                                        <p id="txtDt2" class="textDetalhes">
-                                            Trabalho realizado pela professora Amanda 
-                                            do Grupo 5 e com a carinhosa ajuda da 
-                                            Secretária de Cultura Rosaura Mª Rezende 
-                                            Faria Hermeto.
-                                        </p>
-                                    </div>
+                                        Palestra sobre "Setembro Amarelo"
+                                    </h5>
                                 </a>
                             </div>
-                            <div id="divEvt3" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4"
-                                 onmouseover="expand('ex', 'txtDt3', this, 'imgEvt3', 'vm3')" 
-                                 onmouseout="expand('re', 'txtDt3', this, 'imgEvt3', 'vm3')">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento12.php">
+                                    <img class="img-fluid" src="../img/eventos/evento12/0.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">
+                                        XIV Encontro do Ensino Médio
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento11.php">
+                                    <img class="img-fluid" src="../img/eventos/evento11/0E.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">
+                                        Premiações do Concurso feito pela Academia 
+                                        Brazopolense de Letras e História
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento10.php">
+                                    <img class="img-fluid" src="../img/eventos/evento10/0.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">
+                                        Os alunos do Grupo 5 em viagem para NR Acampamentos
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento9.php">
+                                    <img class="img-fluid" src="../img/eventos/evento9/0E.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">
+                                        Trabalhos dos alunos do G3, G4 e G5 
+                                        sobre a Semana da Pátria.
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento8.php">
+                                    <img class="img-fluid" src="../img/eventos/evento8/0.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">
+                                        E quem disse que estudar Matemática é coisa chata?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento7.php">
+                                    <img class="img-fluid" src="../img/eventos/evento7/0E.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">Festa Junina 2019</h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento6.php">
+                                    <img class="img-fluid" src="../img/eventos/evento6/0E.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <h5 class="TEventos">FECIC 2019</h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento5.php">
+                                    <img id="imgEvt5" class="img-fluid" src="../img/eventos/evento5/0E.jpg"
+                                         alt="Alunos pintando no dia do livro"/>
+                                    <p id="vm5" class="verMais">Ver mais</p>
+                                    <h5 class="TEventos">
+                                        Dia do Livro Infantil - 18 de abril
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento4.php">
+                                    <img id="imgEvt4" class="img-fluid" src="../img/eventos/evento4/0.jpg"
+                                         alt="Alunos em frente faculdade de medicina"/>
+                                    <p id="vm4" class="verMais">Ver mais</p>
+                                    <h5 class="TEventos">
+                                        Vivenciando a Semana do Meio Ambiente
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                                 <a href="eventos/evento3.php">
                                     <img id="imgEvt3" class="img-fluid" src="../img/eventos/evento3/0.jpg"
-                                         alt="Alunos em frente faculdade de medicina" 
-                                         style="border-radius: 10px;"/>
+                                         alt="Alunos em frente faculdade de medicina"/>
                                     <p id="vm3" class="verMais">Ver mais</p>
                                     <h5 class="TEventos">
                                         Visita à Faculdade de Medicida de Itajubá</h5>
-                                    <div id="dt3" class="container">
-                                        <p id="txtDt3" class="textDetalhes">
-                                            Trabalho realizado pela professora Amanda 
-                                            do Grupo 5 e com a carinhosa ajuda da 
-                                            Secretária de Cultura Rosaura Mª Rezende 
-                                            Faria Hermeto.
-                                        </p>
-                                    </div>
                                 </a>
                             </div>
-                            <div id="divEvt4" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4"
-                                 onmouseover="expand('ex', 'txtDt4', this, 'imgEvt4', 'vm4')" 
-                                 onmouseout="expand('re', 'txtDt4', this, 'imgEvt4', 'vm4')">
-                                <a href="eventos/evento4.php">
-                                    <img id="imgEvt4" class="img-fluid" src="../img/eventos/evento4/0.jpg"
-                                         alt="Alunos em frente faculdade de medicina" 
-                                         style="border-radius: 10px;"/>
-                                    <p id="vm4" class="verMais">Ver mais</p>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                <a href="eventos/evento2.php">
+                                    <img id="imgEvt2" class="img-fluid" src="../img/eventos/evento2/0.jpg"
+                                         alt="Crianças em frente a mural de mosaico"/>
+                                    <p id="vm2" class="verMais">Ver mais</p>
                                     <h5 class="TEventos">
-                                        Vivenciando a Semana do Meio Ambiente</h5>
-                                    <div id="dt4" class="container">
-                                        <p id="txtDt4" class="textDetalhes">
-                                            Atividades realizadas pelos alunos do G4 e G5 
-                                            das tias Ana Rita e Amanda. Parabéns pelo 
-                                            excelente trabalho!
-                                        </p>
-                                    </div>
+                                        Cidade na qual moramos</h5>
                                 </a>
                             </div>
-                            <div id="divEvt5" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4"
-                                 onmouseover="expand('ex', 'txtDt5', this, 'imgEvt5', 'vm5')" 
-                                 onmouseout="expand('re', 'txtDt5', this, 'imgEvt5', 'vm5')">
-                                <a href="eventos/evento5.php">
-                                    <img id="imgEvt5" class="img-fluid" src="../img/eventos/evento5/0E.jpg"
-                                         alt="Alunos em frente faculdade de medicina" 
-                                         style="border-radius: 10px;"/>
-                                    <p id="vm5" class="verMais">Ver mais</p>
+                            <div id="divEvt1" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">                        
+                                <a href="eventos/evento1.php"> 
+                                    <img id="imgEvt1" class="img-fluid" src="../img/eventos/evento1/0A.jpg" 
+                                         alt="Alunas mexendo com botânica"/>
+                                    <p id="vm1" class="verMais">Ver mais</p>
                                     <h5 class="TEventos">
-                                        Dia do Livro Infantil - 18 de abril</h5>
-                                    <div id="dt5" class="container">
-                                        <p id="txtDt5" class="textDetalhes">
-                                            Atividades realizadas pelos alunos do G4 e G5 
-                                            das tias Ana Rita e Amanda. Parabéns pelo 
-                                            excelente trabalho!
-                                        </p>
-                                    </div>
+                                        Aula exploratória sobre classificação botânica</h5>
                                 </a>
                             </div>
                         </div>

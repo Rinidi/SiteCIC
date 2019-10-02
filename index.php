@@ -3,11 +3,11 @@
     <head>
         <title></title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
     </head>
     <body>
         <!-- Piwik -->
@@ -121,119 +121,117 @@
 
         <!--Carrosel Inicio da Página-->
         <div class="container-fluid" style="margin-bottom: 40px;">
-            <div class="container">
-                <div id="contCentro" class="row justify-content-center">
-                    <div id="car" class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row justify-content-center">
-                                        <div class="col-9">
-                                            <img class="d-block w-100" src="img/escola2.jpg" alt="First slide">
+            <div id="contCentro" class="row justify-content-center">
+                <div id="car" class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <img class="d-block w-100" src="img/escola2.jpg" alt="First slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">CIC - Colégio Imaculada Conceição</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <a href="includes/eventos/evento13.php">
+                                            <img class="d-block w-100" src="img/eventos/evento13/0.jpg" alt="First slide">
                                             <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                <h5>CIC - Colégio Imaculada Conceição</h5>
+                                                <h5 class="titleCarousel">Palestra sobre "Setembro amarelo"</h5>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row justify-content-center">
-                                        <div class="col-9">
-                                            <a href="includes/eventos/evento1.php">
-                                                <img class="d-block w-100" src="img/eventos/evento1/0A.jpg" alt="First slide">
-                                                <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                    <h5>Aula exploratória sobre classificação botânica</h5>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row justify-content-center">
-                                        <div class="col-9">
-                                            <a href="includes/eventos/evento2.php">
-                                                <img class="d-block w-100" src="img/eventos/evento2/0.jpg" alt="Second slide">
-                                                <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                    <h5>Cidade no qual moramos</h5>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row justify-content-center">
-                                        <div class="col-9">
-                                            <a href="includes/eventos/evento3.php">
-                                                <img class="d-block w-100" src="img/eventos/evento3/0.jpg" alt="Third slide">
-                                                <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                    <h5>Visita à Faculdade de Medicida de Itajubá</h5>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row justify-content-center">
-                                        <div class="col-9">
-                                            <a href="includes/eventos/evento4.php">
-                                                <img class="d-block w-100" src="img/eventos/evento4/0.jpg" alt="Third slide">
-                                                <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                    <h5>Vivenciando a Semana do Meio Ambiente</h5>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row justify-content-center">
-                                        <div class="col-9">
-                                            <a href="includes/eventos/evento5.php">
-                                                <img class="d-block w-100" src="img/eventos/evento5/0E.jpg" alt="Third slide">
-                                                <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                    <h5>Dia do Livro Infantil - 18 de abril</h5>
-                                                </div>
-                                            </a>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <a href="includes/eventos/evento2.php">
+                                            <img class="d-block w-100" src="img/eventos/evento2/0.jpg" alt="Second slide">
+                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                                <h5 class="titleCarousel">Cidade no qual moramos</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <a href="includes/eventos/evento3.php">
+                                            <img class="d-block w-100" src="img/eventos/evento3/0.jpg" alt="Third slide">
+                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                                <h5 class="titleCarousel">Visita à Faculdade de Medicida de Itajubá</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <a href="includes/eventos/evento4.php">
+                                            <img class="d-block w-100" src="img/eventos/evento4/0.jpg" alt="Third slide">
+                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                                <h5 class="titleCarousel">Vivenciando a Semana do Meio Ambiente</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <a href="includes/eventos/evento5.php">
+                                            <img class="d-block w-100" src="img/eventos/evento5/0E.jpg" alt="Third slide">
+                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                                <h5 class="titleCarousel">Dia do Livro Infantil - 18 de abril</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <div id="divicons" class="col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                    <a href="includes/educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
-                                </div>
-                                <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                    <a href="includes/fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
-                                </div>
-                                <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                    <a href="includes/fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
-                                </div>
-                                <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                    <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
-                                </div>
-                                <div id="iconSolo"class="col-8 col-sm-6 col-md-6 col-lg-7 col-xl-6">
-                                    <a href="includes/terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5"/></a>
-                                </div>                
+                </div>
+                <div id="divicons" class="col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <a href="includes/educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
                             </div>
+                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <a href="includes/fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
+                            </div>
+                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <a href="includes/fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
+                            </div>
+                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
+                            </div>
+                            <div id="iconSolo"class="col-8 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+                                <a href="includes/terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5"/></a>
+                            </div>                
                         </div>
                     </div>
                 </div>

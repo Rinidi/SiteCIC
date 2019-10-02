@@ -162,18 +162,19 @@
                             </div>
                         </div>
                     </div>
+                    <div id="margin-top-bottom-md" class="container">
+                        <a id="txt-btn-voltar" class="botaoVoltar" href="../eventos.php" role="button">
+                            <div id="btn-voltar" class="row justify-content-center">
+                                <div class="botaoVoltar">
+                                    Voltar
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </section>
             </div>
         </div>
-        <div id="margin-top-bottom-md" class="container">
-            <div class="row justify-content-center">
-                <div class="botaoVoltar">
-                    <a class="botaoVoltar" href="../eventos.php" role="button">
-                            Voltar
-                    </a>
-                </div>
-            </div>
-        </div>
+
         <footer>
             <div id="dataFooter" class="container">
                 <div class="row">

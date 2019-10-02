@@ -112,9 +112,9 @@
                         <div class="row mb-4 justify-content-center">
                             <div class="col-10">
                                 <p class="txtEvt">
-                                   Atividades realizadas pelos alunos do G4 e G5 
-                                   das tias Ana Rita e Amanda. Parabéns pelo 
-                                   excelente trabalho!
+                                    Atividades realizadas pelos alunos do G4 e G5 
+                                    das tias Ana Rita e Amanda. Parabéns pelo 
+                                    excelente trabalho!
                                 </p>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4"><br/>
@@ -188,6 +188,15 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div id="margin-top-bottom-md" class="container">
+                        <a id="txt-btn-voltar" class="botaoVoltar" href="../eventos.php" role="button">
+                            <div id="btn-voltar" class="row justify-content-center">
+                                <div class="botaoVoltar">
+                                    Voltar
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </section>
             </div>
