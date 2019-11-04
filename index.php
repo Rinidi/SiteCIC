@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
-        <title></title>
+        <title>Colégio Imaculada Conceição  </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <!-- Bootstrap CSS -->
+        <link rel="icon" href="img/favicon3.png"/>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
@@ -243,9 +244,9 @@
             <div id="forms" class="container">
                 <div class="row justify-content-end">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                        <h1>TEXTO TEXTO</h1>
-                        <h2>TEXTO TEXTO TEXTO</h2>
-                        <p>(TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO)</p>
+                        <h1>Mande uma mensagem</h1>
+                        <h2>Entre em contato</h2>
+                        <p></p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
                         <form class="textForm">
@@ -278,7 +279,11 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                         <h6 class="txtRodape"><br/>COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                        <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
+                        <p class="rodape">Ocupando posição de destaque na cidade de Brazópolis e região e 
+                            completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
+                             tendo como meta e preocupação que o seu aluno se torne protagonista do 
+                             aprendizado, possibilitando-o a empreender o seu próprio conhecimento, 
+                             pautado em valores éticos e morais.</p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
                         <h6 class="txtRodape"><br/>Níveis de Ensino</h6>

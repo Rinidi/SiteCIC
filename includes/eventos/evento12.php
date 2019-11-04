@@ -173,7 +173,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4"><br/>
-                                <a href="../../img/eventos/evento12/7jpg"
+                                <a href="../../img/eventos/evento12/7.jpg"
                                    data-toggle="lightbox" data-gallery="img-gallery">
                                     <img src="../../img/eventos/evento12/7.jpg"
                                          class="img-fluid rounded" id="ftGallery"/>

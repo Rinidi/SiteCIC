@@ -3,55 +3,65 @@
 
     src: url("../includes/fonts/BRLNSB.tff");
 }*/
-@media only screen and (max-width: 900px) and (min-width: 0px){
-    .formu{
+
+@media only screen and (max-width: 900px) and (min-width: 0px) {
+    .formu {
         background-image: none !important;
         background-color: #e4e1e1;
     }
 }
-h1{
+
+h1 {
     color: #FF9708;
     font-family: Berlin Sans FB;
     text-transform: capitalize;
 }
-h6{
+
+h6 {
     font-size: 14px;
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
-a{
-    color: rgba(0,0,0, 0.5);
+
+a {
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-a:hover{
+
+footer {
+    width: 100%;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+a:hover {
     text-decoration: none;
 }
 
-h3.TInfra{
+h3.TInfra {
     color: #094478;
     text-align: center;
     font-size: 35px;
     font-family: Berlin Sans FB;
 }
 
-h4.TEventos{
+h4.TEventos {
     color: #094478;
     text-align: center;
     font-size: 35px;
     font-family: Berlin Sans FB;
 }
 
-h5.TEventos{
+h5.TEventos {
     color: #094478;
     text-align: center;
     font-size: 25px;
     font-family: Berlin Sans FB;
 }
 
-div.botao{
-    text-align:center;
+div.botao {
+    text-align: center;
     height: 50px;
     width: 80%;
     margin-left: 10%;
@@ -61,13 +71,14 @@ div.botao{
     background-color: rgba(255, 165, 56, 1);
 }
 
-a.botao{
+a.botao {
     color: #363636;
     font-family: Franklin Gothic;
     text-decoration: none;
 }
-div.botaoVoltar{
-    text-align:center;
+
+div.botaoVoltar {
+    text-align: center;
     height: 50px;
     width: 200px;
     padding-top: 5px;
@@ -81,26 +92,28 @@ div.botaoVoltar{
     text-decoration: none;
     text-shadow: 1px 1px 1px black;
 }
-a.botaoVoltar{
-    
-}
-a#btn-voltar{
-    
-}
-p.rodape{
+
+a.botaoVoltar {}
+
+a#btn-voltar {}
+
+p.rodape {
     font-size: 14px;
     text-align: center;
 }
-.titleInfra{
+
+.titleInfra {
     color: #FF9708;
     font-family: Berlin Sans FB;
     font-size: 25pt;
     text-transform: capitalize;
 }
-p.txtEvt{
+
+p.txtEvt {
     text-align: center;
 }
-p.textDetalhes{
+
+p.textDetalhes {
     color: #363636;
     text-align: justify;
     font-family: Arial;
@@ -111,6 +124,7 @@ p.textDetalhes{
     -o-transition: all .5s linear;
     transition: all .5s linear;
 }
+
 .capa {
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
@@ -118,7 +132,8 @@ p.textDetalhes{
     position: absolute;
     top: 0;
 }
-p.verMais{
+
+p.verMais {
     font-size: 28px;
     font-family: Arial;
     font-weight: bold;
@@ -129,10 +144,12 @@ p.verMais{
     display: none;
     margin-bottom: -42px;
 }
+
 .img-responsive {
     margin: 0;
 }
-article.formu{
+
+article.formu {
     background-image: url("../img/fundos/fundo5T.jpg");
     background-repeat: no-repeat;
     background-size: 1300px;
@@ -140,27 +157,35 @@ article.formu{
     background-color: #e4e1e1;
     padding-bottom: 20px;
 }
+
+
 /*Divs Barras*/
-div.barra{
+
+div.barra {
     background-color: rgba(231, 126, 35, 1);
     height: 25px;
     margin-bottom: -5px;
 }
-div.barra2{
+
+div.barra2 {
     background-color: rgba(43, 64, 85, 1);
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     padding: 5px 0px 5px 0px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
+
+
 /*FIM Divs Barras*/
-span.tel{
+
+span.tel {
     color: #073F66;
     font-size: 11pt;
     font-weight: bold;
 }
-.horizontal-divider{
+
+.horizontal-divider {
     height: 1;
     margin: 0.5rem 0;
     overflow: hidden;
@@ -168,35 +193,42 @@ span.tel{
     margin-left: 15px;
     margin-right: 15px;
 }
-a.pais{
+
+a.pais {
     color: #073F66;
     font-weight: bold;
     font-size: 11pt;
     text-transform: uppercase;
     margin-left: 10px;
 }
-.txtRodape{
+
+.txtRodape {
     color: #FF9708;
     font: bold 12pt Arial;
     text-transform: uppercase;
     text-shadow: 0.5px 0.5px 0px #0f2f46;
 }
-form.textForm{
-    color:rgba(37, 38, 42,0.7);
+
+form.textForm {
+    color: rgba(37, 38, 42, 0.7);
     font-family: Trebuchet MS, Sans-serif;
     font-weight: bold;
     font-size: 15px;
 }
-img#img-infra{
+
+img#img-infra {
     margin: 10px;
 }
-div#navbarText{
+
+div#navbarText {
     margin-top: 10px;
     text-align: center;
 }
 
+
 /*Navs Secundarias*/
-#navSecundaria{
+
+#navSecundaria {
     background-color: rgba(46, 83, 109, 1);
     text-align: justify;
     letter-spacing: 0px;
@@ -204,108 +236,175 @@ div#navbarText{
     text-transform: capitalize;
     font: normal 15pt Arial;
 }
+
+
 /*FIM Navs Secundarias*/
 
+
 /*Navs Primarias*/
-nav#navPrimaria{ 
+
+nav#navPrimaria {
     background-color: rgba(245, 155, 46, 1);
     /*background-color: rgba(67, 88, 112, 1);*/
     /*background-color: rgba(231, 126, 35, 1);*/
     /*background-color: rgba(95, 120, 145, 1);*/
 }
-/*FIM Navs Primarias*/
-p#txtDt1{
 
-}
-div#rodaNiveis{
+
+/*FIM Navs Primarias*/
+
+p#txtDt1 {}
+
+div#rodaNiveis {
     text-align: center;
 }
-div#rodaLinks{
+
+div#rodaLinks {
     text-align: left;
 }
-div#contNav{
+
+div#contNav {
     margin-bottom: -5px;
 }
-div#contCentro{
-}
-div#car{
+
+div#contCentro {}
+
+div#car {
     /*border: solid 2px #0f2f46;*/
     border-radius: 15px;
     /*background-color: #292929;*/
     margin-top: 60px;
 }
-div.carousel-item{
+
+div.carousel-item {
     border-radius: 20px;
 }
-div#divicons{
-    margin: auto;
 
+div#divicons {
+    margin: auto;
 }
-#iconSolo{
+
+#iconSolo {
     margin-top: 30px;
 }
-div#forms{
+
+div#forms {
     padding-left: 100px;
     padding-top: 50px;
 }
-div#carousel-inner{
+
+div#carousel-inner {
     height: 2000px;
 }
-div#dataFooter{
+
+div#dataFooter {
     padding-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
-button#btnForm{
+
+button#btnForm {
     width: 100px;
 }
-#dropMenu{
+
+#dropMenu {
     text-align: center;
     background-color: rgba(66, 103, 129, 0.9);
 }
-#textDropMenu{
+
+#textDropMenu {
     color: whitesmoke;
     font: normal 12pt Arial;
     margin-bottom: 3px;
     text-shadow: 1px 1px 2px #0f2f46;
 }
-a#textNav{
+
+a#textNav {
     color: whitesmoke;
     font: bold 13pt Arial;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #0f2f46;
 }
-#margin-top-bottom-md{
+
+#margin-top-bottom-md {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-img{
+
+img {
     -webkit-transition: all 0.3s ease-in;
 }
-img#ftGallery{
+
+img#ftGallery {
     /*border-radius: 10px;*/
 }
-#carouselCaption{
-    /*background-color: rgba(43, 64, 85, 0.8);*/
 
+#carouselCaption {
+    /*background-color: rgba(43, 64, 85, 0.8);*/
     border-radius: 35px;
     margin-bottom: 15px;
-
 }
-.titleCarousel{
+
+.titleCarousel {
     -webkit-text-stroke: 0.2px black;
     text-shadow: 2px 2px black;
     font-size: 18pt;
 }
-section#galery{
+
+section#galery {
     background-color: white;
     /*border-left: 1px solid black;
     border-right: 1px solid black;*/
 }
-body#Eventos{
+
+body#Eventos {
     background-color: rgba(245, 245, 245, 1);
 }
-footer{	
-    width: 100%;
-    background-color: rgba(230,230,230, 1);	
+
+
+/*########################################################
+#########################################################
+##########################################################*/
+
+
+/*li {
+    margin-top: 10px;
+}*/
+
+.pBox {
+    margin-top: 20px;
+}
+
+.slogan {
+    font-size: 35pt;
+}
+
+#tBox {
+    margin-bottom: 20px;
+}
+
+#slogan {
+    font: normal 19pt Arial;
+}
+
+#txtBox {
+    font: normal 14pt Arial;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#txtBoxSlogan {
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+#txtBoxMissao {
+    font: normal 14pt Arial;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
