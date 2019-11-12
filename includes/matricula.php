@@ -2,21 +2,50 @@
 <html lang="pt-br">
 
 <head>
-    <title></title>
+    <title>Colégio Imaculada Conceição </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link rel="icon" href="../img/favicon3.png" />
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "//cluster-piwik.locaweb.com.br/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 31675]);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=31675" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Piwik Code -->
     <div>
         <!--Navbar secundaria com transparencia-->
         <nav id="navSecundaria" class="navbar navbar-expand-lg navbar-dark ">
-            <div id="contNav" class="container justify-content-center">
-                <a class="navbar-brand" href="index.php"><img src="../img/Escola-Principal1.png" height="80px"></a>
-                <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="../img/positivo4.png" height="60px"></a>
+            <div id="contNav" class="container-fluid justify-content-start">
+                <a class="navbar-brand" href="../index.php">
+                    <img src="../img/Logo-img.png" height="70px">
+                    <img src="../img/Logo-txt.png" height="50px">
+                </a>
+                <a class="navbar-brand" href="http://www.editorapositivo.com.br/sistemas-de-ensino/sistema-positivo-de-ensino/" target="_blank">
+                    <img src="../img/positivo4.png" height="60px">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,7 +62,7 @@
                             <div id="dropMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a id="textDropMenu" class="dropdown-item" href="escola.php">A escola</a>
                                 <a id="textDropMenu" class="dropdown-item" href="matricula.php">Matrícula</a>
-                                <!-- <a class="dropdown-item" href="#">Regimento</a> -->
+                                <a id="textDropMenu" class="dropdown-item" href="brasao.php">Brasão</a>
                                 <a id="textDropMenu" class="dropdown-item" href="infraestrutura.php">Infraestrutura</a>
                             </div>
                         </li>
@@ -93,52 +122,90 @@
             </div>
         </nav>
     </div>
+    <!-- FIM Navbar Primária com cor Sólida-->
     <article>
-        <div class="container">
-            <h1>MATRÍCULA</h1>
-            <p>Senhores pais e responsáveis,
-                <br /><br/>
-                Para nós, do Colégio Imaculada Conceição - CIC, é uma grande satisfação acolher seu(sua) filho(a) em nossa comunidade escolar. Ficamos honrados em sermos escolhidos para compor a parceria no seu processo educativo. Sejam bem-vindos!
-                <br /><br/>
-                O primeiro passo para a entrada de um aluno no CIC deve ser a visita dos pais à escola. Essa é uma ocasião para conhecer tudo o que a escola pode oferecer ao estudante: proposta pedagógica, sistema de ensino, instalações físicas, organização interna, recursos didáticos e tecnológicos. Estamos de braços abertos para recebê-los!
-                <br /><br/>
-                Em seguida, chega o momento da matrícula. Para que a mesma seja validamente efetuada, deverão ser entregues à Secretaria os seguintes documentos:
-                <p>
+        <div class="container margin-bottom-lg">
+            <h1 class="tittle margin-top-md" style="margin-bottom: -40px;">MATRÍCULA</h1>
+            <div id="txtBox">
+                <p>Senhores pais e responsáveis,
+                    <br /><br />
+                    Para nós, do Colégio Imaculada Conceição - CIC, é uma grande satisfação acolher seu(sua) filho(a) em nossa comunidade escolar. Ficamos honrados em sermos escolhidos para compor a parceria no seu processo educativo. Sejam bem-vindos!
+                    <br /><br />
+                    O primeiro passo para a entrada de um aluno no CIC deve ser a visita dos pais à escola. Essa é uma ocasião para conhecer tudo o que a escola pode oferecer ao estudante: proposta pedagógica, sistema de ensino, instalações físicas, organização interna, recursos didáticos e tecnológicos. Estamos de braços abertos para recebê-los!
+                    <br /><br />
+                    Em seguida, chega o momento da matrícula. Para que a mesma seja validamente efetuada, deverão ser entregues à Secretaria os seguintes documentos:
+                </p>
+                <h3 class="sub-t">Documentos necessários para matrícula</h3>
+                <ul>
+                    <li>Xerox certidão de nascimento/RG e CPF</li>
+                    <li>1 fotos 3x4</li>
+                    <li>Xerox Documentos dos responsáveis (CPF/RG) </li>
+                    <li>Declaração Transferência</li>
+                    <li>Xerox Comprovante de endereço</li>
+                    <li>Comprovante que está em dia com a vacinação (Lei Municipal nº 1258 de 29/05/2019)</li>
+                </ul>
+            </div>
         </div>
     </article>
+    <div class="black">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <img class="img-fluid border margin-bottom-md" src="../img/matriculas.jpg" style="margin-top:-20px;" />
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
-        <div id="dataFooter" class="container">
-            <div class="row">
+        <div id="dataFooter" class="container-fluid">
+            <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                     <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                    <p class="rodape">Texto Contando brevemente a história do Colégio Imaculada Conceição, o sem tempo de fundação juntamente com sua localidade, seus princípios educativos e objetivos como instituição de ensino[...],escrevendo sua história de forma profunda e transformadora...</p>
+                    <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
+                        completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
+                        tendo como meta e preocupação que o seu aluno se torne protagonista do
+                        aprendizado, possibilitando-o a empreender o seu próprio conhecimento,
+                        pautado em valores éticos e morais.</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-2">
                     <h6 class="txtRodape"><br />Níveis de Ensino</h6>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-start">
                         <div id="rodaLinks">
-                            <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="../img/01C.png" height="30px" />Educação Infantil</a><br />
-                            <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="../img/02C.png" height="30px" />Fundamental I</a><br />
-                            <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="../img/03C.png" height="30px" /> Fundamental II</a><br />
-                            <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="../img/04C.png" height="30px" />Ensino Médio</a><br />
-                            <a href="includes/terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="../img/05C.png" height="30px" />Terceirão</a>
+                            <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/01C.png" height="30px" /> Educação Infantil</a><br />
+                            <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/02C.png" height="30px" /> Fundamental I</a><br />
+                            <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/03C.png" height="30px" /> Fundamental II</a><br />
+                            <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/04C.png" height="30px" /> Ensino Médio</a><br />
+                            <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/05C.png" height="30px" /> Terceirão</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div id="FaleConosco" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                     <h6 class="txtRodape"><br />Fale Conosco</h6>
-                    <p>Rua Capitão Almeida Vergueiro 37530-000 Brazópolis - MG</p><br />
-                    <p>Telefone:<br /> (35) 3641-1577</p>
+                    <p id="txt-end">Rua Capitão Almeida Vergueiro,<br />CEP: 37530-000,<br /> Brazópolis - MG</p>
+                    <p id="txt-tel">Telefone:<br /> (35) 3641-1577</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="col-8 col-sm-8 col-md-6 col-lg-3 col-xl-3">
                     <h6 class="txtRodape"><br />Redes Sociais</h6>
-                    <div class="linkFace">
-                        <a id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada">
-                            <div onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
-                                <img id="logoFace" src="../img/fb.png" alt="Logo Facebook" height="35px" />
-                                @ciccolegioimaculada
-                            </div>
-                        </a>
+                    <div class="row justify-content-start">
+                        <div id="linkLogo" class="col-12">
+                            <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
+                                <img id="logoFace" src="../img/logo-fb.png" alt="Logo Facebook" height="45px" />
+
+                                <!--@ciccolegioimaculada-->
+                            </a>
+                        </div>
+                        <div id="linkLogo" class="col-12">
+                            <a class="" id="linkGmailCic" href="faleConosco.php">
+                                <img id="logoGmail" src="../img/logo-gm.png" alt="Logo Gmail" height="35px" />
+
+                                <!--@ciccolegioimaculada-->
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

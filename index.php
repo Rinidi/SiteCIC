@@ -1,342 +1,364 @@
 <!doctype html>
 <html lang="pt-br">
-    <head>
-        <title>Colégio Imaculada Conceição  </title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <!-- Bootstrap CSS -->
-        <link rel="icon" href="img/favicon3.png"/>
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-    </head>
-    <body>
-        <!-- Piwik -->
-        <script type="text/javascript">
-            var _paq = _paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function () {
-                var u = "//cluster-piwik.locaweb.com.br/";
-                _paq.push(['setTrackerUrl', u + 'piwik.php']);
-                _paq.push(['setSiteId', 31675]);
-                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-                g.type = 'text/javascript';
-                g.async = true;
-                g.defer = true;
-                g.src = u + 'piwik.js';
-                s.parentNode.insertBefore(g, s);
-            })();
-        </script>
-        <noscript><p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=31675" style="border:0;" alt="" /></p></noscript>
-        <!-- End Piwik Code -->
-        <div>
-            <!--Navbar secundaria com transparencia-->
-            <nav id="navSecundaria" class="navbar navbar-expand-lg navbar-dark ">                
-                <div id="contNav" class="container justify-content-center">
-                    <a class="navbar-brand" href="index.php"><img src="img/Escola-Principal1.png" height="80px"></a>
-                    <a class="navbar-brand" href="http://www.editorapositivo.com.br/"><img src="img/positivo4.png" height="60px"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarText">
-                        <ul class="navbar-nav">
+
+<head>
+    <title>Colégio Imaculada Conceição </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="img/favicon3.png" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+</head>
+
+<body>
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "//cluster-piwik.locaweb.com.br/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 31675]);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=31675" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Piwik Code -->
+    <div>
+        <!--Navbar secundaria com transparencia-->
+        <nav id="navSecundaria" class="navbar navbar-expand-lg navbar-dark ">
+            <div id="contNav" class="container-fluid justify-content-start">
+                <a class="navbar-brand" href="index.php"><img src="img/Logo-img.png" height="70px">
+                    <img src="img/Logo-txt.png" height="50px"></a>
+                <a class="navbar-brand" href="http://www.editorapositivo.com.br/sistemas-de-ensino/sistema-positivo-de-ensino/" target="_blank">
+                    <img src="img/positivo4.png" height="60px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="textNav" class="nav-link" href="index.php" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">Home</a>
+                        </li>
+                        <div class="horizontal-divider"></div>
+                        <li class="nav-item dropdown">
+                            <a id="textNav" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                Sobre Nós
+                            </a>
+                            <div id="dropMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a id="textDropMenu" class="dropdown-item" href="includes/escola.php">A escola</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/matricula.php">Matrícula</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/brasao.php">Brasão</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/infraestrutura.php">Infraestrutura</a>
+                            </div>
+                        </li>
+                        <div class="horizontal-divider"></div>
+                        <li class="nav-item dropdown">
+                            <a id="textNav" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                Educação
+                            </a>
+                            <div id="dropMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a id="textDropMenu" class="dropdown-item" href="includes/educacaoInfantil.php">Educação Infantil</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/fundamental1.php">Fundamental I</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/fundamental2.php">Fundamental II</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/ensinoMedio.php">Ensino Médio</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/terceirao.php">Curso Terceirão</a>
+                            </div>
+                        </li>
+                        <div class="horizontal-divider"></div>
+                        <li class="nav-item">
+                            <a id="textNav" class="nav-link" href="includes/eventos.php" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                Eventos
+                            </a>
+                        </li>
+                        <div class="horizontal-divider"></div>
+                        <li class="nav-item">
+                            <a id="textNav" class="nav-link" href="includes/faleConosco.php" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
+                                Fale Conosco
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--FIM Navbar secundaria com transparencia-->
+    <!--Navbar Primária com cor Sólida-->
+    <div class="nav1">
+        <nav class="navbar" id="navPrimaria">
+            <div class="container justify-content-end">
+                <ul class="navbar-nav">
+                    <div class="row">
+                        <div>
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="index.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">Home</a>
-                            </li><div class="horizontal-divider"></div>
-                            <li class="nav-item dropdown">
-                                <a id="textNav" class="nav-link dropdown-toggle"
-                                   href="#" id="navbarDropdownMenuLink" role="button" 
-                                   data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" 
-                                   onmouseout="hover(this, 1, 'OT')">
-                                    Sobre Nós
-                                </a>
-                                <div id="dropMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/escola.php">A escola</a>
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/matricula.php">Matrícula</a>
-                                    <!-- <a class="dropdown-item" href="#">Regimento</a> -->
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/infraestrutura.php">Infraestrutura</a>
-                                </div>
-                            </li><div class="horizontal-divider"></div>
-                            <li class="nav-item dropdown">
-                                <a id="textNav" class="nav-link dropdown-toggle" 
-                                   href="#" id="navbarDropdownMenuLink" role="button" 
-                                   data-toggle="dropdown" aria-haspopup="true" 
-                                   aria-expanded="false" onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
-                                    Educação
-                                </a>
-                                <div id="dropMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/educacaoInfantil.php">Educação Infantil</a>
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/fundamental1.php">Fundamental I</a>
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/fundamental2.php">Fundamental II</a>
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/ensinoMedio.php">Ensino Médio</a>
-                                    <a id="textDropMenu" class="dropdown-item" href="includes/terceirao.php">Curso Terceirão</a>
-                                </div>
-                            </li><div class="horizontal-divider"></div>
+                                <img src="img/cel.png" alt="logo Telefone" height="20px">
+                                <span class="tel">(35)3641-1577</span>
+                            </li>
+                        </div>
+                        <div>
                             <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="includes/eventos.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
-                                    Eventos
-                                </a>
-                            </li><div class="horizontal-divider"></div>
-                            <li class="nav-item">
-                                <a id="textNav" class="nav-link" href="includes/faleConosco.php" 
-                                   onmousemove="hover(this, 1, 'MV')" onmouseout="hover(this, 1, 'OT')">
-                                    Fale Conosco
+                                <a class="pais" href="#">
+                                    <img src="img/pessoa.png" alt="logo pessoa" height="20px">
+                                    Pais e Alunos
                                 </a>
                             </li>
-                        </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- FIM Navbar Primária com cor Sólida-->
+
+
+
+    <div id="txtBox" class="container-fluid">
+        <div id="boxSlogan" class="container">
+            <h1 class="slogan">Slogan da Escola:</h1>
+            <p id="slogan">“Empreendendo o conhecimento e construindo o futuro”</p>
         </div>
-        <!--FIM Navbar secundaria com transparencia-->
-        <!--Navbar Primária com cor Sólida-->
-        <div class="nav1">
-            <nav class="navbar" id="navPrimaria">
-                <div class="container justify-content-end">
-                    <ul class="navbar-nav">
-                        <div class="row">
-                            <div>
-                                <li class="nav-item">
-                                    <img src="img/cel.png" alt="logo Telefone" height="20px">
-                                    <span class="tel">(35)3641-1577</span>
-                                </li>
-                            </div>
-                            <div>
-                                <li class="nav-item">
-                                    <a class="pais" href="#">
-                                        <img src="img/pessoa.png" alt="logo pessoa" height="20px">
-                                        Pais e Alunos
+    </div>
+    <!--Carrosel Inicio da Página-->
+    <div class="container-fluid" style="margin-bottom: 40px;">
+        <div id="contCentro" class="row justify-content-center">
+            <div id="car" class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="background: #333333;max-width:900px; max-height:600px !important;">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/matricula.php">
+                                        <img class="img-fluid" src="img/matriculas2.png" alt="Matriculas">
                                     </a>
-                                </li>
+                                </div>
                             </div>
                         </div>
-                    </ul>
-                </div>                  
-            </nav>
-        </div>
-        <!-- FIM Navbar Primária com cor Sólida-->
-
-        <!--Carrosel Inicio da Página-->
-        <div class="container-fluid" style="margin-bottom: 40px;">
-            <div id="contCentro" class="row justify-content-center">
-                <div id="car" class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <img class="d-block w-100" src="img/escola2.jpg" alt="First slide">
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <img class="d-block w-100" src="img/escola2.jpg" alt="Foto CIC">
+                                    <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                        <h5 class="titleCarousel">CIC - Colégio Imaculada Conceição</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/eventos/evento13.php">
+                                        <img class="d-block w-100" src="img/eventos/evento13/0.jpg" alt="Evento Palestra">
                                         <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                            <h5 class="titleCarousel">CIC - Colégio Imaculada Conceição</h5>
+                                            <h5 class="titleCarousel">Palestra sobre "Setembro amarelo"</h5>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <a href="includes/eventos/evento13.php">
-                                            <img class="d-block w-100" src="img/eventos/evento13/0.jpg" alt="First slide">
-                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                <h5 class="titleCarousel">Palestra sobre "Setembro amarelo"</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <a href="includes/eventos/evento2.php">
-                                            <img class="d-block w-100" src="img/eventos/evento2/0.jpg" alt="Second slide">
-                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                <h5 class="titleCarousel">Cidade no qual moramos</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <a href="includes/eventos/evento3.php">
-                                            <img class="d-block w-100" src="img/eventos/evento3/0.jpg" alt="Third slide">
-                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                <h5 class="titleCarousel">Visita à Faculdade de Medicida de Itajubá</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <a href="includes/eventos/evento4.php">
-                                            <img class="d-block w-100" src="img/eventos/evento4/0.jpg" alt="Third slide">
-                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                <h5 class="titleCarousel">Vivenciando a Semana do Meio Ambiente</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <a href="includes/eventos/evento5.php">
-                                            <img class="d-block w-100" src="img/eventos/evento5/0E.jpg" alt="Third slide">
-                                            <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                                <h5 class="titleCarousel">Dia do Livro Infantil - 18 de abril</h5>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/eventos/evento2.php">
+                                        <img class="d-block w-100" src="img/eventos/evento2/0.jpg" alt="Second slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">Cidade no qual moramos</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/eventos/evento3.php">
+                                        <img class="d-block w-100" src="img/eventos/evento3/0.jpg" alt="Third slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">Visita à Faculdade de Medicida de Itajubá</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/eventos/evento4.php">
+                                        <img class="d-block w-100" src="img/eventos/evento4/0.jpg" alt="Third slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">Vivenciando a Semana do Meio Ambiente</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/eventos/evento5.php">
+                                        <img class="d-block w-100" src="img/eventos/evento5/0E.jpg" alt="Third slide">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">Dia do Livro Infantil - 18 de abril</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <div id="divicons" class="col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                <a href="includes/educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
-                            </div>
-                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                <a href="includes/fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
-                            </div>
-                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                <a href="includes/fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
-                            </div>
-                            <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
-                            </div>
-                            <div id="iconSolo"class="col-8 col-sm-6 col-md-6 col-lg-7 col-xl-6">
-                                <a href="includes/terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5"/></a>
-                            </div>                
+            </div>
+            <div id="divicons" class="col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <a href="includes/educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
+                        </div>
+                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <a href="includes/fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
+                        </div>
+                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <a href="includes/fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
+                        </div>
+                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                            <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
+                        </div>
+                        <div id="iconSolo" class="col-8 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+                            <a href="includes/terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5" /></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--FIM Carrosel Inicio da Página-->
-
-        <article class="formu">
-            <div id="forms" class="container">
-                <div class="row justify-content-end">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                        <h1>Mande uma mensagem</h1>
-                        <h2>Entre em contato</h2>
-                        <p></p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                        <form class="textForm">
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Nome</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">DDD+Telefone</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XX)XXXX-XXXX">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Mensagem</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <button type="submit" class="btn btn-dark" id="btnForm">Enviar</button>
-                            </div>
-                        </form>
-                    </div>  
+    </div>
+    <!--FIM Carrosel Inicio da Página-->
+    
+    <article class="formu">
+        <div id="forms" class="container">
+            <div class="row justify-content-end">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
+                    <h1 id="h1-t-form">Venha fazer parte deste time de vencedores.</h1>
+                    <h2 id="h2-t-form">O CIC oferece um sistema de ensino que abrange
+                        todas as etapas da formação da criança e do
+                        adolescente.</h2>
+                    <p></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
+                    <form class="textForm">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nome</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">DDD+Telefone</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XX)XXXX-XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-dark" id="btnForm">Enviar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </article>
-        <footer>
-            <div id="dataFooter" class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                        <h6 class="txtRodape"><br/>COLÉGIO IMACULADA CONCEIÇÃO</h6>
-                        <p class="rodape">Ocupando posição de destaque na cidade de Brazópolis e região e 
-                            completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
-                             tendo como meta e preocupação que o seu aluno se torne protagonista do 
-                             aprendizado, possibilitando-o a empreender o seu próprio conhecimento, 
-                             pautado em valores éticos e morais.</p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
-                        <h6 class="txtRodape"><br/>Níveis de Ensino</h6>
-                        <div class="row justify-content-center">
-                            <div id="rodaLinks">
-                                <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')"
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/01C.png" 
-                                                                       height="30px"/>Educação Infantil</a><br/>
-                                <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/02C.png" 
-                                                                       height="30px"/>Fundamental I</a><br/>
-                                <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/03C.png" 
-                                                                       height="30px"/> Fundamental II</a><br/>
-                                <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/04C.png" 
-                                                                       height="30px"/>Ensino Médio</a><br/>
-                                <a href="includes/terceirao.php" onmousemove="hover(this, 2, 'MV')" 
-                                   onmouseout="hover(this, 2, 'OT')"><img src="img/05C.png" 
-                                                                       height="30px"/>Terceirão</a>
-                            </div>
+        </div>
+    </article>
+    <footer>
+        <div id="dataFooter" class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                    <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
+                        completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
+                        tendo como meta e preocupação que o seu aluno se torne protagonista do
+                        aprendizado, possibilitando-o a empreender o seu próprio conhecimento,
+                        pautado em valores éticos e morais.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-2">
+                    <h6 class="txtRodape"><br />Níveis de Ensino</h6>
+                    <div class="row justify-content-start">
+                        <div id="rodaLinks">
+                            <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/01C.png" height="30px" /> Educação Infantil</a><br />
+                            <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/02C.png" height="30px" /> Fundamental I</a><br />
+                            <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/03C.png" height="30px" /> Fundamental II</a><br />
+                            <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/04C.png" height="30px" /> Ensino Médio</a><br />
+                            <a href="includes/terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/05C.png" height="30px" /> Terceirão</a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                        <h6 class="txtRodape"><br/>Fale Conosco</h6>
-                        <p>Rua Capitão Almeida Vergueiro 37530-000 Brazópolis - MG</p><br/>
-                        <p>Telefone:<br/> (35) 3641-1577</p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                        <h6 class="txtRodape"><br/>Redes Sociais</h6>
-                        <div class="linkFace">
-                            <a id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada">
-                                <div onmousemove="hover(this, 3, 'MV')" onmouseout="hover(this, 3, 'OT')">
-                                    <img id="logoFace" src="img/fb.png" alt="Logo Facebook" height="35px"/>
-                                    @ciccolegioimaculada
-                                </div>
+                </div>
+                <div id="FaleConosco" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <h6 class="txtRodape"><br />Fale Conosco</h6>
+                    <p id="txt-end">Rua Capitão Almeida Vergueiro,<br />CEP: 37530-000,<br /> Brazópolis - MG</p>
+                    <p id="txt-tel">Telefone:<br /> (35) 3641-1577</p>
+                </div>
+                <div class="col-8 col-sm-8 col-md-6 col-lg-3 col-xl-3">
+                    <h6 class="txtRodape"><br />Redes Sociais</h6>
+                    <div class="row justify-content-start">
+                        <div id="linkLogo" class="col-12">
+                            <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
+                                <img id="logoFace" src="img/logo-fb.png" alt="Logo Facebook" height="45px" />
+                                
+                                <!--@ciccolegioimaculada-->
+                            </a>
+                        </div>
+                        <div id="linkLogo" class="col-12">
+                            <a class="" id="linkGmailCic" href="includes/faleConosco.php">
+                                <img id="logoGmail" src="img/logo-gm.png" alt="Logo Gmail" height="35px" />
+                                
+                                <!--@ciccolegioimaculada-->
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="foot">
-                <div class="barra"></div>
-                <div class="barra2">
-                    Colégio Imaculada Conceição - 2019 
-                </div>
+        </div>
+        <div class="foot">
+            <div class="barra"></div>
+            <div class="barra2">
+                Colégio Imaculada Conceição - 2019
             </div>
-        </footer>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="jquery/dist/jquery.js"></script>
-        <script src="popper.js/dist/popper.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/estilo.js"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="popper.js/dist/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/estilo.js"></script>
+</body>
+
 </html>

@@ -14,15 +14,23 @@
 h1 {
     color: #FF9708;
     font-family: Berlin Sans FB;
-    text-transform: capitalize;
 }
 
-h6 {
+
+/*h6 {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
+}*/
+
+
+/*.black {
+    background: rgb(184, 192, 147);
+}*/
+
+.border {
+    box-shadow: 1px 1px 2px black;
 }
 
 a {
@@ -97,15 +105,17 @@ a.botaoVoltar {}
 
 a#btn-voltar {}
 
-p.rodape {
-    font-size: 14px;
-    text-align: center;
-}
-
 .titleInfra {
     color: #FF9708;
     font-family: Berlin Sans FB;
     font-size: 25pt;
+    text-transform: capitalize;
+}
+
+.tittle {
+    color: #FF9708;
+    font-family: Berlin Sans FB;
+    font-size: 35pt;
     text-transform: capitalize;
 }
 
@@ -125,12 +135,28 @@ p.textDetalhes {
     transition: all .5s linear;
 }
 
+.margin-bottom-lg {
+    margin-bottom: 100px;
+}
+
+.margin-bottom-md {
+    margin-bottom: 50px;
+}
+
+.mar-b-md {
+    margin-bottom: 20px;
+}
+
 .capa {
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
+}
+
+.align-center {
+    text-align: center;
 }
 
 p.verMais {
@@ -203,10 +229,11 @@ a.pais {
 }
 
 .txtRodape {
-    color: #FF9708;
+    margin-bottom: 30px;
     font: bold 12pt Arial;
+    color: #FF9708;
     text-transform: uppercase;
-    text-shadow: 0.5px 0.5px 0px #0f2f46;
+    text-shadow: 0.5px 0.5px 0px #3a3a3a;
 }
 
 form.textForm {
@@ -260,7 +287,7 @@ div#rodaNiveis {
 }
 
 div#rodaLinks {
-    text-align: left;
+    margin-left: 10px;
 }
 
 div#contNav {
@@ -289,7 +316,6 @@ div#divicons {
 }
 
 div#forms {
-    padding-left: 100px;
     padding-top: 50px;
 }
 
@@ -298,9 +324,13 @@ div#carousel-inner {
 }
 
 div#dataFooter {
+    color: rgb(95, 95, 95);
     padding-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
+    padding-left: 50px;
+    text-align: start;
+    font: normal 13pt Arial;
+    line-height: 1.3;
 }
 
 button#btnForm {
@@ -379,32 +409,88 @@ body#Eventos {
     font-size: 35pt;
 }
 
+.big {
+    line-height: 1.4;
+}
+
+.linkFace {
+    text-align: start;
+    margin-right: 10px;
+}
+
+.margin-top-lg {
+    margin-top: 100px;
+}
+
+.margin-top-md {
+    margin-top: 50px;
+}
+
+.sub-t {
+    font: bold 18pt Arial;
+    color: rgb(46, 61, 146);
+    text-shadow: 0.4px 0.6px 1px rgb(163, 163, 163);
+}
+
+#linkLogo {
+    margin-top: 10px;
+}
+
+#txt-box-brasao {
+    font: normal 15pt Calibri;
+    color: #4e4e4e;
+    text-align: center;
+    /*margin-top: 50px;
+    margin-bottom: 20px;*/
+}
+
+#FaleConosco {
+    margin-right: -40px;
+}
+
 #tBox {
     margin-bottom: 20px;
 }
 
 #slogan {
-    font: normal 19pt Arial;
+    font: bold 25pt Arial;
+}
+
+#t-brasao {
+    margin-top: 40px;
+    font: bold 25pt Candara;
+    color: rgb(243, 147, 21);
+    text-shadow: 0.3px 0.5px 1px black;
 }
 
 #txtBox {
-    font: normal 14pt Arial;
+    font: normal 15pt Calibri;
+    color: #4e4e4e;
     text-align: justify;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
-#txtBoxSlogan {
+#h1-t-form {
     text-align: justify;
-    margin-top: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-bottom: 20px;
+    font-size: 24pt;
 }
 
-#txtBoxMissao {
-    font: normal 14pt Arial;
+#h2-t-form {
+    text-align: justify;
+    font-size: 17pt;
+}
+
+#txt-end {
+    font: normal 12pt Arial;
+    line-height: 1.5;
+}
+
+#txt-tel {
+    font: normal 12pt Arial;
+    line-height: 1.9;
+}
+
+#boxSlogan {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
