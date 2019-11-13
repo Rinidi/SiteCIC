@@ -76,7 +76,7 @@
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental1.php">Fundamental I</a>
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental2.php">Fundamental II</a>
                                 <a id="textDropMenu" class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
-                                <a id="textDropMenu" class="dropdown-item" href="terceirao.php">Curso Terceirão</a>
+                                <a id="textDropMenu" class="dropdown-item" href="pre-vestibular.php">Pré-vestibular</a>
                             </div>
                         </li>
                         <div class="horizontal-divider"></div>
@@ -123,79 +123,46 @@
         </nav>
     </div>
     <!-- FIM Navbar Primária com cor Sólida-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/ensino-medio/1.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/ensino-medio/3.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/ensino-medio/4.JPG" class="d-block w-100" alt="...">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/ensino-medio/1.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ensino-medio/3.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ensino-medio/4.JPG" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 
-    <!--Carrosel Inicio da Página-->
-    <!--<div id="car">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="../img/EnsinoMedio/1.jpg" alt="Ensino Médio sala">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h3>Foto referente ao Ensino Médio</h5>
-                                <p>*Comentário a mais sobre o Ensino médio na instituição*</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/EnsinoMedio/3.jpg" alt="Ensino médio sala">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h3>Foto referente ao Ensino Médio</h5>
-                                <p>*Comentário a mais sobre o Ensino médio na instituição*</p>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <!--FIM Carrosel Inicio da Página-->
-    <!--FIM Carrosel Inicio da Página-->
-    <!--<div class="row justify-content-center" style="margin-top: 10%;">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-8">
-                        <img class="img-fluid" src="../img/Manu.png"/>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     <article>
-        <div class="container">
-            <h1>ENSINO MEDIO</h1>
-            <h3>Do 1º ao 3º Ano</h3>
-            <div class="txtBox">
+        <div class="container margin-top-md margin-bottom-lg">
+            <h1 class="tittle">Ensino Médio</h1>
+            <h3 class="sub-t">Do 1º ao 3º Ano</h3>
+            <div class="txt-box">
                 <p>
+                    <img class="img-fluid img-float" src="../img/ensino-medio/2.JPG" width="450px">
                     No ensino Médio os projetos educativos privilegiam os processos de elaboração de
                     significados, ou seja, visa proporcionar, além da base de cultura geral, uma
                     formação que possibilite ao educando interagir na comunidade, mediante a
@@ -217,7 +184,7 @@
         <div id="dataFooter" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                    <h6 class="txtRodape"><br />Colégio Imaculada Conceição</h6>
                     <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                         completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
                         tendo como meta e preocupação que o seu aluno se torne protagonista do
@@ -229,15 +196,15 @@
                     <div class="row justify-content-start">
                         <div id="rodaLinks">
                             <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/01C.png" height="30px" /> Educação Infantil</a><br />
+                                <img src="../img/01C.png" height="40px" /> Educação Infantil</a><br />
                             <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/02C.png" height="30px" /> Fundamental I</a><br />
+                                <img src="../img/02C.png" height="40px" /> Fundamental I</a><br />
                             <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/03C.png" height="30px" /> Fundamental II</a><br />
+                                <img src="../img/03C.png" height="40px" /> Fundamental II</a><br />
                             <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/04C.png" height="30px" /> Ensino Médio</a><br />
-                            <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/05C.png" height="30px" /> Terceirão</a>
+                                <img src="../img/04C.png" height="40px" /> Ensino Médio</a><br />
+                            <a href="pre-vestibular.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/05C.png" height="40px" /> Pré-vestibular</a>
                         </div>
                     </div>
                 </div>
@@ -252,15 +219,13 @@
                         <div id="linkLogo" class="col-12">
                             <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
                                 <img id="logoFace" src="../img/logo-fb.png" alt="Logo Facebook" height="45px" />
-
-                                <!--@ciccolegioimaculada-->
+                                @ciccolegioimaculada
                             </a>
                         </div>
                         <div id="linkLogo" class="col-12">
                             <a class="" id="linkGmailCic" href="faleConosco.php">
                                 <img id="logoGmail" src="../img/logo-gm.png" alt="Logo Gmail" height="35px" />
-
-                                <!--@ciccolegioimaculada-->
+                                ciccolegioimaculada@gmail.com
                             </a>
                         </div>
                     </div>

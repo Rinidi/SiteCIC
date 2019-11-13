@@ -76,7 +76,7 @@
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental1.php">Fundamental I</a>
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental2.php">Fundamental II</a>
                                 <a id="textDropMenu" class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
-                                <a id="textDropMenu" class="dropdown-item" href="terceirao.php">Curso Terceirão</a>
+                                <a id="textDropMenu" class="dropdown-item" href="pre-vestibular.php">Pré-vestibular</a>
                             </div>
                         </li>
                         <div class="horizontal-divider"></div>
@@ -125,7 +125,7 @@
     <!-- FIM Navbar Primária com cor Sólida-->
     <article>
         <div class="container margin-bottom-lg">
-            <h1 class="tittle margin-top-md" style="margin-bottom: -40px;">MATRÍCULA</h1>
+            <h1 class="tittle margin-top-md" style="margin-bottom: -40px;">Matrícula</h1>
             <div id="txtBox">
                 <p>Senhores pais e responsáveis,
                     <br /><br />
@@ -160,7 +160,7 @@
         <div id="dataFooter" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                    <h6 class="txtRodape"><br />Colégio Imaculada Conceição</h6>
                     <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                         completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
                         tendo como meta e preocupação que o seu aluno se torne protagonista do
@@ -179,8 +179,8 @@
                                 <img src="../img/03C.png" height="30px" /> Fundamental II</a><br />
                             <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
                                 <img src="../img/04C.png" height="30px" /> Ensino Médio</a><br />
-                            <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/05C.png" height="30px" /> Terceirão</a>
+                            <a href="pre-vestibular.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/05C.png" height="30px" /> Pré-vestibular</a>
                         </div>
                     </div>
                 </div>
@@ -195,15 +195,13 @@
                         <div id="linkLogo" class="col-12">
                             <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
                                 <img id="logoFace" src="../img/logo-fb.png" alt="Logo Facebook" height="45px" />
-
-                                <!--@ciccolegioimaculada-->
+                                @ciccolegioimaculada
                             </a>
                         </div>
                         <div id="linkLogo" class="col-12">
                             <a class="" id="linkGmailCic" href="faleConosco.php">
                                 <img id="logoGmail" src="../img/logo-gm.png" alt="Logo Gmail" height="35px" />
-
-                                <!--@ciccolegioimaculada-->
+                                ciccolegioimaculada@gmail.com
                             </a>
                         </div>
                     </div>

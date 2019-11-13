@@ -76,7 +76,7 @@
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental1.php">Fundamental I</a>
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental2.php">Fundamental II</a>
                                 <a id="textDropMenu" class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
-                                <a id="textDropMenu" class="dropdown-item" href="terceirao.php">Curso Terceirão</a>
+                                <a id="textDropMenu" class="dropdown-item" href="pre-vestibular.php">Pré-vestibular</a>
                             </div>
                         </li>
                         <div class="horizontal-divider"></div>
@@ -125,90 +125,67 @@
     <!-- FIM Navbar Primária com cor Sólida-->
     <article>
         <div class="container">
-            <div id="txtBox" class="container-fluid">
-                <div class="row justify-content-between">
-                    <div id="tBox" class="col-12">
-                        <h1>Palavras da Direção:</h1>
-                    </div>
-                    <div class="col-8 big">
-                        <p>O Colégio Imaculada Conceição completará no ano que vem, vinte anos de existência. Ele foi criado com o
-                            objetivo de proporcionar à comunidade um ensino de qualidade estimulando o desenvolvimento humano em
-                            sua plenitude, em condições de liberdade e dignidade, criando um ambiente propício a uma boa convivência
-                            e também para as necessárias aprendizagens.<br />
+            <div id="txtBox">
+                <h1 class="tittle mar-b-md">Palavras da Direção:</h1>
+                <img class="img-fluid img-float" src="../img/escola2.JPG" width="400px" />
+                <p>O Colégio Imaculada Conceição completará no ano que vem, vinte anos de existência. Ele foi criado com o
+                    objetivo de proporcionar à comunidade um ensino de qualidade estimulando o desenvolvimento humano em
+                    sua plenitude, em condições de liberdade e dignidade, criando um ambiente propício a uma boa convivência
+                    e também para as necessárias aprendizagens.<br />
 
-                            A educação é a semente da sociedade e por meio dela ensinamos os valores e princípios que nossos
-                            lunos levarão para a vida toda.<br />
+                    A educação é a semente da sociedade e por meio dela ensinamos os valores e princípios que nossos
+                    lunos levarão para a vida toda.<br />
 
-                            O Colégio Imaculada Conceição busca orientar o processo ensino - aprendizagem numa perspectiva de
-                            construção contínua do conhecimento, focando no aluno como sujeito ativo de sua própria formação,
-                            criando, investigando, resolvendo problemas, produzindo sempre de forma autônoma.<br />
+                    O Colégio Imaculada Conceição busca orientar o processo ensino - aprendizagem numa perspectiva de
+                    construção contínua do conhecimento, focando no aluno como sujeito ativo de sua própria formação,
+                    criando, investigando, resolvendo problemas, produzindo sempre de forma autônoma.<br />
 
-                            Os desafios são constantes e manter os ideais educacionais requer aperfeiçoamento e dinamismo.
-                            A cada dia estamos fortalecendo uma marca que é referência em educação, buscando continuamente
-                            a singularidade dos serviços prestados, com um corpo docente qualificado em contínua formação
-                            e uma equipe atuante e competente, capaz de gerenciar atos e processos de forma ágil e eficaz.<br />
+                    Os desafios são constantes e manter os ideais educacionais requer aperfeiçoamento e dinamismo.
+                    A cada dia estamos fortalecendo uma marca que é referência em educação, buscando continuamente
+                    a singularidade dos serviços prestados, com um corpo docente qualificado em contínua formação
+                    e uma equipe atuante e competente, capaz de gerenciar atos e processos de forma ágil e eficaz.<br />
 
-                            Essa parceria entre a escola e a família tem como objetivo comum formar cidadãos atuantes,
-                            criativos e dignos, é o que garante o sucesso do Colégio Imaculada Conceição.<br />
+                    Essa parceria entre a escola e a família tem como objetivo comum formar cidadãos atuantes,
+                    criativos e dignos, é o que garante o sucesso do Colégio Imaculada Conceição.<br />
 
-                            É com muita alegria que acolhemos nossos alunos e parabenizamos aos senhores pais
-                            e responsáveis por investir, incentivar e apoiar seus filhos nessa busca.<br />
+                    É com muita alegria que acolhemos nossos alunos e parabenizamos aos senhores pais
+                    e responsáveis por investir, incentivar e apoiar seus filhos nessa busca.<br />
 
-                            Agradecemos a confiança e o respeito durante esses dezenove anos e desejo a
-                            todos uma vida cheia de esperanças, conquistas e realizações.<br />
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid" src="../img/escola2.JPG" />
-                    </div>
-                    <div class="col-12">
-                        <div class="row justify-content-end">
-                            <p>
-                                Márcia Pereira Gomes<br>
-                                Diretora
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                    Agradecemos a confiança e o respeito durante esses dezenove anos e desejo a
+                    todos uma vida cheia de esperanças, conquistas e realizações.<br />
+                </p>
+                <p>
+                    Márcia Pereira Gomes<br>
+                    Diretora
+                </p>
             </div>
-
-
-            <div id="txtBox" class="container-fluid">
-                <div class="row justify-content-start">
-                    <div id="tBox" class="col-12">
-                        <div class="row justify-content-start">
-                            <h1>Valores</h1>
-                        </div>
-                    </div>
-                    <div class="col-8">
-                        <ul>
-                            <li>Formar cidadãos plenos, que tenham a consciência de seu papel como agentes transformadores da sociedade.</li>
-                            <li>Fazer com que o nosso aluno vivencie princípios morais e éticos, que o possibilite encontrar na verdade um caminho de aprendizado.</li>
-                            <li>Promover a construção do conhecimento a partir do ensino-aprendizagem, no qual o aluno é protagonista do seu processo.</l1>
-                            <li>Levar o nosso aluno a empreender o seu conhecimento, como ferramenta para a construção de um futuro promissor.</li>
-                        </ul>
-                    </div>
-                </div>
+        </div>
+        <div class="container">
+            <div id="txtBox">
+                <h1 class="tittle">Valores:</h1>
+                <ul>
+                    <li>Formar cidadãos plenos, que tenham a consciência de seu papel como agentes transformadores da sociedade.</li>
+                    <li>Fazer com que o nosso aluno vivencie princípios morais e éticos, que o possibilite encontrar na verdade um caminho de aprendizado.</li>
+                    <li>Promover a construção do conhecimento a partir do ensino-aprendizagem, no qual o aluno é protagonista do seu processo.</l1>
+                    <li>Levar o nosso aluno a empreender o seu conhecimento, como ferramenta para a construção de um futuro promissor.</li>
+                </ul>
             </div>
-            <div id="txtBox" class="container-fluid">
-                <div class="row justify-content-start">
-                    <div id="tBox" class="col-12">
-                        <h1>Missão</h1>
-                    </div>
-                    <div class="col-12 col-xl-6 col-lg-7 col-md-10 col-sm-12">
-                        <p>
-                            Promover uma educação de qualidade que possibilite ao aluno empreender o seu conhecimento tornando-o agente de transformação social, ética e moral.
-                        </p>
-                    </div>
-                </div>
+        </div>
+        <div class="container margin-bottom-lg">
+            <div id="txtBox">
+                <h1 class="tittle">Missão:</h1>
+                <p>
+                    Promover uma educação de qualidade que possibilite ao aluno empreender o seu conhecimento tornando-o agente de transformação social, ética e moral.
+                </p>
             </div>
+        </div>
 
     </article>
     <footer>
         <div id="dataFooter" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                    <h6 class="txtRodape"><br />Colégio Imaculada Conceição</h6>
                     <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                         completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
                         tendo como meta e preocupação que o seu aluno se torne protagonista do
@@ -220,15 +197,15 @@
                     <div class="row justify-content-start">
                         <div id="rodaLinks">
                             <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/01C.png" height="30px" /> Educação Infantil</a><br />
+                                <img src="../img/01C.png" height="40px" /> Educação Infantil</a><br />
                             <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/02C.png" height="30px" /> Fundamental I</a><br />
+                                <img src="../img/02C.png" height="40px" /> Fundamental I</a><br />
                             <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/03C.png" height="30px" /> Fundamental II</a><br />
+                                <img src="../img/03C.png" height="40px" /> Fundamental II</a><br />
                             <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/04C.png" height="30px" /> Ensino Médio</a><br />
-                            <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/05C.png" height="30px" /> Terceirão</a>
+                                <img src="../img/04C.png" height="40px" /> Ensino Médio</a><br />
+                            <a href="pre-vestibular.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/05C.png" height="40px" /> Pré-vestibular</a>
                         </div>
                     </div>
                 </div>
@@ -243,15 +220,13 @@
                         <div id="linkLogo" class="col-12">
                             <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
                                 <img id="logoFace" src="../img/logo-fb.png" alt="Logo Facebook" height="45px" />
-
-                                <!--@ciccolegioimaculada-->
+                                @ciccolegioimaculada
                             </a>
                         </div>
                         <div id="linkLogo" class="col-12">
                             <a class="" id="linkGmailCic" href="faleConosco.php">
                                 <img id="logoGmail" src="../img/logo-gm.png" alt="Logo Gmail" height="35px" />
-
-                                <!--@ciccolegioimaculada-->
+                                ciccolegioimaculada@gmail.com
                             </a>
                         </div>
                     </div>

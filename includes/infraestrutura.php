@@ -76,7 +76,7 @@
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental1.php">Fundamental I</a>
                                 <a id="textDropMenu" class="dropdown-item" href="fundamental2.php">Fundamental II</a>
                                 <a id="textDropMenu" class="dropdown-item" href="ensinoMedio.php">Ensino Médio</a>
-                                <a id="textDropMenu" class="dropdown-item" href="terceirao.php">Curso Terceirão</a>
+                                <a id="textDropMenu" class="dropdown-item" href="pre-vestibular.php">Pré-vestibular</a>
                             </div>
                         </li>
                         <div class="horizontal-divider"></div>
@@ -126,133 +126,99 @@
     <article>
         <div class="container">
             <!--Aqui começa o conteúdo principal da página-->
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <br />
-                            <h3 class="TInfra">Laboratório de Informática</h3>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="row justify-content-center margin-top-md">
+                        <div class="col-12 align-center">
+                            <h3 class="tittle2">Laboratório de Informática</h3>
+                        </div>
+                        <div class="txt-box">
+                            <p>
+                                Texto Sobre o Laboratório de Informática
+                            </p>
                         </div>
                         <div class="col-12">
-                            <p>Texto Sobre o Laboratório de Informática</p>
-                        </div>
-                        <div class="col-12">
-                            <img class="img-thumbnail" src="../img/infraestrutura/lab-info/2.JPG" />
-                        </div>
-                        <div class="col-12"><br />
-                            <a class="botao" href="infra/labInfo.php" role="button">
-                                <div class="botao" onmousemove="overButton(this, 'in')" onmouseout="overButton(this, 'out')">
-                                    Clique aqui para ver
-                                </div>
+                            <a href="infra/labInfo.php">
+                                <img class="img-thumbnail" src="../img/infraestrutura/lab-info/2.JPG" />
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <br /><br />
-                            <h3 class="TInfra">Biblioteca</h3>
-                            <br />
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="row justify-content-center margin-top-md">
+                        <div class="col-12 align-center">
+                            <h3 class="tittle2">Laborarótio de Ciencias</h3>
+                        </div>
+                        <div class="txt-box">
+                            <p>
+                                Texto sobre o Laborarótio de Ciencias
+                            </p>
                         </div>
                         <div class="col-12">
-                            <p>Texto sobre a área citada acima</p>
-                        </div>
-                        <div class="col-12">
-                            <img class="img-thumbnail" src="../img/infraestrutura/biblioteca/3.JPG">
-                        </div>
-                        <div class="col-12"><br />
-                            <a class="botao" href="infra/biblioteca.php" role="button">
-                                <div class="botao" onmousemove="overButton(this, 'in')" onmouseout="overButton(this, 'out')">
-                                    Clique aqui para ver
-                                </div>
+                            <a href="infra/labCiencias.php">
+                                <img class="img-thumbnail" src="../img/infraestrutura/lab-ciencias/2.JPG">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <br />
-                            <h3 class="TInfra">Laborarótio de Ciencias</h3>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="row justify-content-center margin-top-md">
+                        <div class="col-12 align-center">
+                            <h3 class="tittle2">Biblioteca</h3>
+                        </div>
+                        <div class="txt-box">
+                            <p>
+                                Texto sobre a área citada acima
+                            </p>
                         </div>
                         <div class="col-12">
-                            <p>Texto sobre a área citada acima</p>
-                        </div>
-                        <div class="col-12">
-                            <img class="img-thumbnail" src="../img/infraestrutura/lab-ciencias/2.JPG">
-                        </div>
-                        <div class="col-12"><br />
-                            <a class="botao" href="infra/labCiencias.php" role="button">
-                                <div class="botao" onmousemove="overButton(this, 'in')" onmouseout="overButton(this, 'out')">
-                                    Clique aqui para ver
-                                </div>
+                            <a href="infra/biblioteca.php">
+                                <img class="img-thumbnail" src="../img/infraestrutura/biblioteca/3.JPG">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="row justify-content-center margin-top-md">
                         <div class="col-12">
-                            <br /><br />
-                            <h3 class="TInfra">Parquinho</h3>
-                            <br />
+                            <h3 class="tittle2">Parquinho</h3>
                         </div>
-                        <div class="col-12">
+                        <div class="txt-box">
                             <p>Texto sobre a área citada acima</p>
                         </div>
                         <div class="col-12">
-                            <img class="img-thumbnail" src="../img/infraestrutura/parquinho/1.JPG">
-                        </div>
-                        <div class="col-12"><br />
-                            <a class="botao" href="infra/parquinho.php" role="button">
-                                <div class="botao" onmousemove="overButton(this, 'in')" onmouseout="overButton(this, 'out')">
-                                    Clique aqui para ver
-                                </div>
+                            <a href="infra/parquinho.php">
+                                <img class="img-thumbnail" src="../img/infraestrutura/parquinho/1.JPG">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="row justify-content-center margin-top-md">
                         <div class="col-12">
-                            <br /><br />
-                            <h3 class="TInfra">Sala multimídia</h3>
-                            <br />
+                            <h3 class="tittle2">Sala multimídia</h3>
                         </div>
-                        <div class="col-12">
+                        <div class="txt-box">
                             <p>Texto sobre a área citada acima</p>
                         </div>
                         <div class="col-12">
-                            <img class="img-thumbnail" src="../img/infraestrutura/multimidia/1.JPG">
-                        </div>
-                        <div class="col-12"><br />
-                            <a class="botao" href="infra/multimidia.php" role="button">
-                                <div class="botao" onmousemove="overButton(this, 'in')" onmouseout="overButton(this, 'out')">
-                                    Clique aqui para ver
-                                </div>
+                            <a href="infra/multimidia.php">
+                                <img class="img-thumbnail" src="../img/infraestrutura/multimidia/1.JPG">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="row justify-content-center margin-top-md">
                         <div class="col-12">
-                            <br /><br />
-                            <h3 class="TInfra">Quadra</h3>
-                            <br />
+                            <h3 class="tittle2">Quadra</h3>
                         </div>
-                        <div class="col-12">
+                        <div class="txt-box">
                             <p>Texto sobre a área citada acima</p>
                         </div>
                         <div class="col-12">
-                            <img class="img-thumbnail" src="../img/infraestrutura/quadra/2.JPG">
-                        </div>
-                        <div class="col-12"><br />
-                            <a class="botao" href="infra/quadra.php" role="button">
-                                <div class="botao" onmousemove="overButton(this, 'in')" onmouseout="overButton(this, 'out')">
-                                    Clique aqui para ver
-                                </div>
+                            <a href="infra/quadra.php">
+                                <img class="img-thumbnail" src="../img/infraestrutura/quadra/2.JPG">
                             </a>
                         </div>
                     </div>
@@ -265,7 +231,7 @@
         <div id="dataFooter" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                    <h6 class="txtRodape"><br />Colégio Imaculada Conceição</h6>
                     <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                         completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
                         tendo como meta e preocupação que o seu aluno se torne protagonista do
@@ -277,15 +243,15 @@
                     <div class="row justify-content-start">
                         <div id="rodaLinks">
                             <a href="educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/01C.png" height="30px" /> Educação Infantil</a><br />
+                                <img src="../img/01C.png" height="40px" /> Educação Infantil</a><br />
                             <a href="fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/02C.png" height="30px" /> Fundamental I</a><br />
+                                <img src="../img/02C.png" height="40px" /> Fundamental I</a><br />
                             <a href="fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/03C.png" height="30px" /> Fundamental II</a><br />
+                                <img src="../img/03C.png" height="40px" /> Fundamental II</a><br />
                             <a href="ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/04C.png" height="30px" /> Ensino Médio</a><br />
-                            <a href="terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
-                                <img src="../img/05C.png" height="30px" /> Terceirão</a>
+                                <img src="../img/04C.png" height="40px" /> Ensino Médio</a><br />
+                            <a href="pre-vestibular.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')">
+                                <img src="../img/05C.png" height="40px" /> Pré-vestibular</a>
                         </div>
                     </div>
                 </div>
@@ -300,15 +266,13 @@
                         <div id="linkLogo" class="col-12">
                             <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
                                 <img id="logoFace" src="../img/logo-fb.png" alt="Logo Facebook" height="45px" />
-
-                                <!--@ciccolegioimaculada-->
+                                @ciccolegioimaculada
                             </a>
                         </div>
                         <div id="linkLogo" class="col-12">
                             <a class="" id="linkGmailCic" href="faleConosco.php">
                                 <img id="logoGmail" src="../img/logo-gm.png" alt="Logo Gmail" height="35px" />
-
-                                <!--@ciccolegioimaculada-->
+                                ciccolegioimaculada@gmail.com
                             </a>
                         </div>
                     </div>

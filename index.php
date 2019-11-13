@@ -14,7 +14,7 @@
 
 <body>
     <!-- Piwik -->
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         var _paq = _paq || [];
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
@@ -34,7 +34,7 @@
     </script>
     <noscript>
         <p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=31675" style="border:0;" alt="" /></p>
-    </noscript>
+    </noscript>-->
     <!-- End Piwik Code -->
     <div>
         <!--Navbar secundaria com transparencia-->
@@ -42,7 +42,7 @@
             <div id="contNav" class="container-fluid justify-content-start">
                 <a class="navbar-brand" href="index.php"><img src="img/Logo-img.png" height="70px">
                     <img src="img/Logo-txt.png" height="50px"></a>
-                <a class="navbar-brand" href="http://www.editorapositivo.com.br/sistemas-de-ensino/sistema-positivo-de-ensino/" target="_blank">
+                <a class="navbar-brand" href="http://web.positivoon.com.br" target="_blank">
                     <img src="img/positivo4.png" height="60px">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,7 @@
                                 <a id="textDropMenu" class="dropdown-item" href="includes/fundamental1.php">Fundamental I</a>
                                 <a id="textDropMenu" class="dropdown-item" href="includes/fundamental2.php">Fundamental II</a>
                                 <a id="textDropMenu" class="dropdown-item" href="includes/ensinoMedio.php">Ensino Médio</a>
-                                <a id="textDropMenu" class="dropdown-item" href="includes/terceirao.php">Curso Terceirão</a>
+                                <a id="textDropMenu" class="dropdown-item" href="includes/pre-vestibular.php">Pré-vestibular</a>
                             </div>
                         </li>
                         <div class="horizontal-divider"></div>
@@ -127,7 +127,6 @@
 
     <div id="txtBox" class="container-fluid">
         <div id="boxSlogan" class="container">
-            <h1 class="slogan">Slogan da Escola:</h1>
             <p id="slogan">“Empreendendo o conhecimento e construindo o futuro”</p>
         </div>
     </div>
@@ -252,7 +251,7 @@
                             <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
                         </div>
                         <div id="iconSolo" class="col-8 col-sm-6 col-md-6 col-lg-7 col-xl-6">
-                            <a href="includes/terceirao.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5" /></a>
+                            <a href="includes/pre-vestibular.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5" /></a>
                         </div>
                     </div>
                 </div>
@@ -266,9 +265,9 @@
             <div class="row justify-content-end">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
                     <h1 id="h1-t-form">Venha fazer parte deste time de vencedores.</h1>
-                    <h2 id="h2-t-form">O CIC oferece um sistema de ensino que abrange
+                    <p id="p-t-form">O CIC oferece um sistema de ensino que abrange
                         todas as etapas da formação da criança e do
-                        adolescente.</h2>
+                        adolescente.</p>
                     <p></p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
@@ -301,7 +300,7 @@
         <div id="dataFooter" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <h6 class="txtRodape"><br />COLÉGIO IMACULADA CONCEIÇÃO</h6>
+                    <h6 class="txtRodape"><br />Coégio Imaculada Conceição</h6>
                     <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                         completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
                         tendo como meta e preocupação que o seu aluno se torne protagonista do
@@ -312,11 +311,11 @@
                     <h6 class="txtRodape"><br />Níveis de Ensino</h6>
                     <div class="row justify-content-start">
                         <div id="rodaLinks">
-                            <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/01C.png" height="30px" /> Educação Infantil</a><br />
-                            <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/02C.png" height="30px" /> Fundamental I</a><br />
-                            <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/03C.png" height="30px" /> Fundamental II</a><br />
-                            <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/04C.png" height="30px" /> Ensino Médio</a><br />
-                            <a href="includes/terceirao.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/05C.png" height="30px" /> Terceirão</a>
+                            <a href="includes/educacaoInfantil.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/01C.png" height="40px" /> Educação Infantil</a><br />
+                            <a href="includes/fundamental1.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/02C.png" height="40px" /> Fundamental I</a><br />
+                            <a href="includes/fundamental2.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/03C.png" height="40px" /> Fundamental II</a><br />
+                            <a href="includes/ensinoMedio.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/04C.png" height="40px" /> Ensino Médio</a><br />
+                            <a href="includes/pre-vestibular.php" onmousemove="hover(this, 2, 'MV')" onmouseout="hover(this, 2, 'OT')"><img src="img/05C.png" height="40px" /> Pré-vestibular</a>
                         </div>
                     </div>
                 </div>
@@ -331,15 +330,13 @@
                         <div id="linkLogo" class="col-12">
                             <a class="linkLogo" id="linkFaceCic" href="https://www.facebook.com/ciccolegioimaculada" target="_blank">
                                 <img id="logoFace" src="img/logo-fb.png" alt="Logo Facebook" height="45px" />
-                                
-                                <!--@ciccolegioimaculada-->
+                                @ciccolegioimaculada
                             </a>
                         </div>
                         <div id="linkLogo" class="col-12">
                             <a class="" id="linkGmailCic" href="includes/faleConosco.php">
                                 <img id="logoGmail" src="img/logo-gm.png" alt="Logo Gmail" height="35px" />
-                                
-                                <!--@ciccolegioimaculada-->
+                                ciccolegioimaculada@gmail.com
                             </a>
                         </div>
                     </div>
