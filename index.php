@@ -5,6 +5,7 @@
     <title>Colégio Imaculada Conceição </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="google-site-verification" content="dwDA7fy-h_yJEEZA1trRmB-PUbqJm0Knz5yCmoGNowg" />
     <!-- Bootstrap CSS -->
     <link rel="icon" href="img/favicon3.png" />
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,7 +15,7 @@
 
 <body>
     <!-- Piwik -->
-    <!--<script type="text/javascript">
+    <script type="text/javascript">
         var _paq = _paq || [];
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
@@ -34,7 +35,7 @@
     </script>
     <noscript>
         <p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=31675" style="border:0;" alt="" /></p>
-    </noscript>-->
+    </noscript>
     <!-- End Piwik Code -->
     <div>
         <!--Navbar secundaria com transparencia-->
@@ -300,7 +301,7 @@
         <div id="dataFooter" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <h6 class="txtRodape"><br />Coégio Imaculada Conceição</h6>
+                    <h6 class="txtRodape"><br />Colégio Imaculada Conceição</h6>
                     <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                         completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
                         tendo como meta e preocupação que o seu aluno se torne protagonista do

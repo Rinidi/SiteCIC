@@ -43,7 +43,7 @@
                     <img src="../img/Logo-img.png" height="70px">
                     <img src="../img/Logo-txt.png" height="50px">
                 </a>
-                <a class="navbar-brand" href="http://www.editorapositivo.com.br/sistemas-de-ensino/sistema-positivo-de-ensino/" target="_blank">
+                <a class="navbar-brand" href="http://web.positivoon.com.br" target="_blank">
                     <img src="../img/positivo4.png" height="60px">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

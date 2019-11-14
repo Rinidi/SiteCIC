@@ -43,7 +43,7 @@
                     <img src="../img/Logo-img.png" height="70px">
                     <img src="../img/Logo-txt.png" height="50px">
                 </a>
-                <a class="navbar-brand" href="http://www.editorapositivo.com.br/sistemas-de-ensino/sistema-positivo-de-ensino/" target="_blank">
+                <a class="navbar-brand" href="http://web.positivoon.com.br" target="_blank">
                     <img src="../img/positivo4.png" height="60px">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -147,11 +147,11 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="row justify-content-center margin-top-md">
                         <div class="col-12 align-center">
-                            <h3 class="tittle2">Laborarótio de Ciencias</h3>
+                            <h3 class="tittle2">Laboratório de Ciências</h3>
                         </div>
                         <div class="txt-box">
                             <p>
-                                Texto sobre o Laborarótio de Ciencias
+                                Texto sobre o Laborarótio de Ciências
                             </p>
                         </div>
                         <div class="col-12">
