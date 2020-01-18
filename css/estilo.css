@@ -162,6 +162,10 @@ p.textDetalhes {
     margin-bottom: 50px;
 }
 
+.margin-bottom-sm {
+    margin-bottom: 25px;
+}
+
 .mar-b-md {
     margin-bottom: 20px;
 }
@@ -247,9 +251,9 @@ a.pais {
     margin-left: 10px;
 }
 
-.txtRodape {
-    margin-bottom: 30px;
-    font: bold 18pt Arial;
+.hRodape {
+    margin-bottom: 20px;
+    font: bold 15pt Arial;
     color: #FF9708;
     text-shadow: 0.5px 0.5px 1px #3a3a3a;
 }
@@ -320,7 +324,6 @@ div#car {
     /*border: solid 2px #0f2f46;*/
     border-radius: 15px;
     /*background-color: #292929;*/
-    margin-top: 60px;
 }
 
 div.carousel-item {
@@ -428,9 +431,7 @@ body#Eventos {
     margin-top: 20px;
 }
 
-.slogan {
-    font-size: 35pt;
-}
+.box-slogan {}
 
 .big {
     line-height: 1.4;
@@ -457,10 +458,45 @@ body#Eventos {
     margin-bottom: 10px;
 }
 
+.box-tittle {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.h1-contato {
+    font: bold 30pt Arial;
+    color: antiquewhite;
+}
+
+.subt-contato {
+    margin-top: 15px;
+    color: rgb(64, 100, 126);
+    font: bold 17pt Calibri;
+}
+
+.txt-contato {
+    color: rgb(83, 83, 83);
+}
+
+.fixed-bottom {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+#div-contato {
+    background-color: rgb(231, 231, 231);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 #a-fale-conosco {
     background-image: url('../img/fundos/fundo7.jpeg');
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#contato {
+    background-color: rgb(62, 112, 148);
 }
 
 #form {
@@ -492,10 +528,14 @@ body#Eventos {
 }
 
 #slogan {
-    font: bold 25pt Arial;
+    font: bold 30pt Arial;
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.116);
+    /*font: bold 25pt Arial;
     color: rgb(247, 144, 9);
     text-shadow: 1px 1px 2px rgb(56, 56, 56);
-    text-align: center;
+    text-align: center;*/
 }
 
 #t-brasao {
