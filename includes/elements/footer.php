@@ -1,7 +1,7 @@
 <footer>
     <div id="dataFooter" class="container-fluid">
         <div class="row justify-content-between">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <div class="col-11 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                 <h6 class="hRodape"><br />Colégio Imaculada Conceição</h6>
                 <p class="txt-rodape">Ocupando posição de destaque na cidade de Brazópolis e região e
                     completando seus 20 anos, o CIC promove uma educação de qualidade e excelência,
@@ -26,7 +26,7 @@
                 <p id="txt-end">Rua Capitão Almeida Vergueiro,<br />CEP: 37530-000,<br /> Brazópolis - MG</p>
                 <p id="txt-tel">Telefone:<br /> (35) 3641-1577</p>
             </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-3 col-xl-3">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 col-xl-3">
                 <h6 class="hRodape"><br />Redes Sociais</h6>
                 <div class="row justify-content-start">
                     <div id="linkLogo" class="col-12">

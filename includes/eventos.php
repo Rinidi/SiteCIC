@@ -49,8 +49,80 @@
                     <div class="row mb-4  justify-content-start">
 
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento22.php">
+                                <img class="img-fluid" src="../img/eventos/evento22/0A.jpg" />
+                                <h5 class="TEventos">
+                                    XI Projeto de Leitura e Tarde de Autógrafos
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento21.php">
+                                <img class="img-fluid" src="../img/eventos/evento21/0A.jpg" />
+                                <h5 class="TEventos">
+                                    Café de Confraternização e despedida dos alunos do Terceirão.
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento20.php">
+                                <img class="img-fluid" src="../img/eventos/evento20/0A.jpg" />
+                                <h5 class="TEventos">
+                                    Alunos do 3º ano do Ensino Fundamental em aula interativa
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento19.php">
+                                <img class="img-fluid" src="../img/eventos/evento19/0.jpg" />
+                                <h5 class="TEventos">
+                                    Viagem de Formatura dos alunos do 5º ano do Ensino Fundamental
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento18.php">
+                                <img class="img-fluid" src="../img/eventos/evento18/0A.jpg" />
+                                <h5 class="TEventos">
+                                    9º ano do Ensino Fundamental em visita à Varginha
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento17.php">
+                                <img class="img-fluid" src="../img/eventos/evento17/0A.jpg" />
+                                <h5 class="TEventos">
+                                    Semana da criança no CIC
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento16.php">
+                                <img class="img-fluid" src="../img/eventos/evento16/0A.jpg" />
+                                <h5 class="TEventos">
+                                    Ensino Fundamental II e Ensino Médio em visita a Tiradentes
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento15.php">
+                                <img class="img-fluid" src="../img/eventos/evento15/0.jpg" />
+                                <h5 class="TEventos">
+                                    Palestra do ex-aluno e hoje médico, Dr. José Henrique Gomes Torres.
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento14.php">
+                                <img class="img-fluid" src="../img/eventos/evento14/0E.jpg" />
+                                <h5 class="TEventos">
+                                    Atividade ao ar livre sobre texturas
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento13.php">
-                                <img class="img-fluid" src="../img/eventos/evento13/0.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento13/0.jpg" />
                                 <h5 class="TEventos">
                                     Palestra sobre "Setembro Amarelo"
                                 </h5>
@@ -58,7 +130,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento12.php">
-                                <img class="img-fluid" src="../img/eventos/evento12/0.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento12/0.jpg" />
                                 <h5 class="TEventos">
                                     XIV Encontro do Ensino Médio
                                 </h5>
@@ -66,7 +138,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento11.php">
-                                <img class="img-fluid" src="../img/eventos/evento11/0E.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento11/0E.jpg" />
                                 <h5 class="TEventos">
                                     Premiações do Concurso feito pela Academia
                                     Brazopolense de Letras e História
@@ -75,7 +147,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento10.php">
-                                <img class="img-fluid" src="../img/eventos/evento10/0.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento10/0.jpg" />
                                 <h5 class="TEventos">
                                     Os alunos do Grupo 5 em viagem para NR Acampamentos
                                 </h5>
@@ -83,7 +155,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento9.php">
-                                <img class="img-fluid" src="../img/eventos/evento9/0E.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento9/0E.jpg" />
                                 <h5 class="TEventos">
                                     Trabalhos dos alunos do G3, G4 e G5
                                     sobre a Semana da Pátria.
@@ -92,7 +164,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento8.php">
-                                <img class="img-fluid" src="../img/eventos/evento8/0.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento8/0.jpg" />
                                 <h5 class="TEventos">
                                     E quem disse que estudar Matemática é coisa chata?
                                 </h5>
@@ -100,19 +172,19 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento7.php">
-                                <img class="img-fluid" src="../img/eventos/evento7/0E.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento7/0E.jpg" />
                                 <h5 class="TEventos">Festa Junina 2019</h5>
                             </a>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento6.php">
-                                <img class="img-fluid" src="../img/eventos/evento6/0E.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img class="img-fluid" src="../img/eventos/evento6/0E.jpg" />
                                 <h5 class="TEventos">FECIC 2019</h5>
                             </a>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento5.php">
-                                <img id="imgEvt5" class="img-fluid" src="../img/eventos/evento5/0E.jpg" alt="Alunos pintando no dia do livro" />
+                                <img id="imgEvt5" class="img-fluid" src="../img/eventos/evento5/0E.jpg" />
                                 <p id="vm5" class="verMais">Ver mais</p>
                                 <h5 class="TEventos">
                                     Dia do Livro Infantil - 18 de abril
@@ -121,7 +193,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento4.php">
-                                <img id="imgEvt4" class="img-fluid" src="../img/eventos/evento4/0.jpg" alt="Alunos em frente faculdade de medicina" />
+                                <img id="imgEvt4" class="img-fluid" src="../img/eventos/evento4/0.jpg" />
                                 <p id="vm4" class="verMais">Ver mais</p>
                                 <h5 class="TEventos">
                                     Vivenciando a Semana do Meio Ambiente
