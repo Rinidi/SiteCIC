@@ -44,7 +44,7 @@
 
     <div id="a-fale-conosco">
         <div class="box-slogan box-tittle">
-            <h2 id="slogan"class="align-center">“Empreendendo o conhecimento e construindo o futuro”</h2>
+            <h2 id="slogan" class="align-center">“Empreendendo o conhecimento e construindo o futuro”</h2>
         </div>
     </div>
     <!-- Fim Import Nav-->
@@ -67,9 +67,19 @@
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="#">
+                                        <img class="img-fluid" src="img/volta-aulas.jpg" alt="Matriculas">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
                             <div class="row justify-content-center">
                                 <div class="col-12">
                                     <a href="includes/matricula.php">
@@ -160,7 +170,7 @@
     </div>
     <!--FIM Carrosel Inicio da Página-->
 
-    
+
     <!--<article class="formu">
         <div id="forms" class="container">
             <div class="row justify-content-end">
