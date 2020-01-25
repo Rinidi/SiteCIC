@@ -41,7 +41,7 @@
                         </a>
                     </div>
                     <div id="linkLogo" class="col-12">
-                        <a class="" id="linkGmailCic" href="faleConosco.php">
+                        <a class="" id="linkGmailCic" href="contato.php">
                             <img id="logoGmail" src="../img/logo-gm.png" alt="Logo Gmail" height="35px" />
                             ciccolegioimaculada@gmail.com
                         </a>

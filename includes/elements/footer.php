@@ -36,7 +36,7 @@
                         </a>
                     </div>
                     <div id="linkLogo" class="col-12">
-                        <a class="linkLogo" id="linkGmailCic" href="includes/faleConosco.php">
+                        <a class="linkLogo" id="linkGmailCic" href="includes/contato.php">
                             <img id="logoGmail" src="img/logo-gm.png" alt="Logo Gmail" height="35px" />
                             ciccolegioimaculada@gmail.com
                         </a>
