@@ -67,23 +67,13 @@
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row justify-content-center">
                                 <div class="col-12">
-                                    <a href="#">
-                                        <img class="img-fluid" src="img/volta-aulas.jpg" alt="Matriculas">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
                                     <a href="includes/matricula.php">
-                                        <img class="img-fluid" src="img/matriculas2.png" alt="Matriculas">
+                                        <img class="img-fluid" src="img/volta-aulas.jpg" alt="Matriculas">
                                     </a>
                                 </div>
                             </div>
