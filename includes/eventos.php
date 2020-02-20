@@ -49,6 +49,22 @@
                     <div class="row mb-4  justify-content-start">
 
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento24.php">
+                                <img class="img-fluid" src="../img/eventos/evento24/0A.jpg" />
+                                <h5 class="TEventos">
+                                    Trabalhos com colagem, cor e formas geométricas.
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                            <a href="eventos/evento23.php">
+                                <img class="img-fluid" src="../img/eventos/evento23/0A.png" />
+                                <h5 class="TEventos">
+                                    Aprovações nos vestibulares e no ENEM 2019.
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                             <a href="eventos/evento22.php">
                                 <img class="img-fluid" src="../img/eventos/evento22/0A.jpg" />
                                 <h5 class="TEventos">

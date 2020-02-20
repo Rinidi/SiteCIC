@@ -72,8 +72,23 @@
                         <div class="carousel-item active">
                             <div class="row justify-content-center">
                                 <div class="col-12">
-                                    <a href="includes/matricula.php">
-                                        <img class="img-fluid" src="img/volta-aulas.jpg" alt="Matriculas">
+                                    <a href="includes/eventos/evento23.php">
+                                        <img class="img-fluid" src="img/eventos/evento23/0A.png" alt="Matriculas">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">Aprovações nos vestibulares e no ENEM 2019.</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <a href="includes/eventos/evento24.php">
+                                        <img class="d-block w-100" src="img/eventos/evento24/1E.jpg" alt="Evento Palestra">
+                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                                            <h5 class="titleCarousel">Trabalhos com colagem, cor e formas geométricas.</h5>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -85,42 +100,6 @@
                                     <div id="carouselCaption" class="carousel-caption d-none d-md-block">
                                         <h5 class="titleCarousel">CIC - Colégio Imaculada Conceição</h5>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <a href="includes/eventos/evento13.php">
-                                        <img class="d-block w-100" src="img/eventos/evento13/0.jpg" alt="Evento Palestra">
-                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                            <h5 class="titleCarousel">Palestra sobre "Setembro amarelo"</h5>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <a href="includes/eventos/evento3.php">
-                                        <img class="d-block w-100" src="img/eventos/evento3/0.jpg" alt="Third slide">
-                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                            <h5 class="titleCarousel">Visita à Faculdade de Medicida de Itajubá</h5>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <a href="includes/eventos/evento4.php">
-                                        <img class="d-block w-100" src="img/eventos/evento4/0.jpg" alt="Third slide">
-                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                            <h5 class="titleCarousel">Vivenciando a Semana do Meio Ambiente</h5>
-                                        </div>
-                                    </a>
                                 </div>
                             </div>
                         </div>
