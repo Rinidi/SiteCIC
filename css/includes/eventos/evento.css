@@ -1,0 +1,41 @@
+.evento{
+    background: #f5f5f5;
+}
+.evento__container{
+    padding-top: 30px;
+    text-align: center;
+}
+.evento__titulo{
+    color: rgba(46, 83, 109, 1);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+.evento__descricao{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 20px 5% 50px 5%;
+}
+.evento__imagens{
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px #7b7b7b;
+    height: 250px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    width: 100%;
+}
+.botao-voltar{
+    background: rgb(44, 91, 125);
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+.botao-voltar:hover{
+    color: #e5e5e5;
+    background: rgb(36, 73, 97);
+}

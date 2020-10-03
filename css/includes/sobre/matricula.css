@@ -1,0 +1,49 @@
+.matricula{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.matricula__titulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #FF9708;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+.matricula__subtitulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF9708;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-shadow: 0.3px 0.5px 1px black;
+}
+.matricula__texto{
+    font-size: 1.3rem;
+    font-family: Calibri;
+    color: #525252;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+.matricula__lista{
+    list-style: circle;
+}
+.matricula__lista-item{
+    margin: 5px 0 0 30px;
+    font-size: 1.3rem;
+    font-family: Calibri;
+    color: #525252;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+
+.matricula__container-img{
+    margin-top: 50px;
+}
+.matricula__imagem{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}

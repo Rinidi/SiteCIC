@@ -1,0 +1,50 @@
+
+.escola{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.escola__titulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #FF9708;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+.escola__imagem{
+    width: 400px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    margin: 0px 0px 5px 30px;
+}
+.escola__texto{
+    font-size: 1.3rem;
+    font-family: Calibri;
+    color: #525252;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+.escola__lista{
+    list-style: circle;
+}
+.escola__lista-item{
+    margin: 5px 0 0 30px;
+    font-size: 1.3rem;
+    font-family: Calibri;
+    color: #525252;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+@media only screen and (max-width: 700px) {
+    .escola__imagem{
+        text-align: center;
+        width: 100%;
+        float: center;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

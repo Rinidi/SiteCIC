@@ -1,188 +1,205 @@
-<!doctype html>
-<html lang="pt-br">
+<?php
 
-<head>
-    <title>Colégio Imaculada Conceição </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="google-site-verification" content="dwDA7fy-h_yJEEZA1trRmB-PUbqJm0Knz5yCmoGNowg" />
-    <meta name="google-site-verification" content="l2Ix_1FkETlqUFtgrUgikoSkbRKT6MvVnjxEWLIm4ak" />
-    <!-- Bootstrap CSS -->
-    <link rel="icon" href="img/favicon3.png" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-</head>
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ *
+ */
+	define('ENVIRONMENT', 'development');
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
 
-<body>
-    <!-- Piwik -->
-    <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u = "//cluster-piwik.locaweb.com.br/";
-            _paq.push(['setTrackerUrl', u + 'piwik.php']);
-            _paq.push(['setSiteId', 31675]);
-            var d = document,
-                g = d.createElement('script'),
-                s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript';
-            g.async = true;
-            g.defer = true;
-            g.src = u + 'piwik.js';
-            s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <noscript>
-        <p><img src="//cluster-piwik.locaweb.com.br/piwik.php?idsite=31675" style="border:0;" alt="" /></p>
-    </noscript>
-    <!-- End Piwik Code -->
-    <!-- Import Nav -->
+if (defined('ENVIRONMENT'))
+{
+	switch (ENVIRONMENT)
+	{
+		case 'development':
+			error_reporting(E_ALL);
+		break;
 
-    <?php require_once("includes/elements/nav.php"); ?>
+		case 'testing':
+		case 'production':
+			error_reporting(0);
+		break;
 
-    <div id="a-fale-conosco">
-        <div class="box-slogan box-tittle">
-            <h2 id="slogan" class="align-center">“Empreendendo o conhecimento e construindo o futuro”</h2>
-        </div>
-    </div>
-    <!-- Fim Import Nav-->
+		default:
+			exit('The application environment is not set correctly.');
+	}
+}
 
+/*
+ *---------------------------------------------------------------
+ * SYSTEM FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" folder.
+ * Include the path if the folder is not in the same  directory
+ * as this file.
+ *
+ */
+	$system_path = 'system';
 
-    <!-- Slogam da Escola -->
-    <!--<div id="txtBox" class="container-fluid">
-        <div id="boxSlogan" class="container">
-            <p id="slogan">“Empreendendo o conhecimento e construindo o futuro”</p>
-        </div>
-    </div>-->
-    <!--Carrosel Inicio da Página-->
-    <div class="container-fluid" style="margin-bottom: 40px; margin-top: 20px;">
-        <div id="contCentro" class="row justify-content-center">
-            <div id="car" class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="background: #333333;max-width:900px; max-height:600px !important;">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <a href="includes/eventos/evento23.php">
-                                        <img class="img-fluid" src="img/eventos/evento23/0A.png" alt="Matriculas">
-                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                            <h5 class="titleCarousel">Aprovações nos vestibulares e no ENEM 2019.</h5>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <a href="includes/eventos/evento24.php">
-                                        <img class="d-block w-100" src="img/eventos/evento24/1E.jpg" alt="Evento Palestra">
-                                        <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                            <h5 class="titleCarousel">Trabalhos com colagem, cor e formas geométricas.</h5>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <img class="d-block w-100" src="img/escola2.jpg" alt="Foto CIC">
-                                    <div id="carouselCaption" class="carousel-caption d-none d-md-block">
-                                        <h5 class="titleCarousel">CIC - Colégio Imaculada Conceição</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-            <div id="divicons" class="col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                            <a href="includes/educacaoInfantil.php"><img src="img/01T.png" width="300px" class="img-fluid" id="logo1"></a>
-                        </div>
-                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                            <a href="includes/fundamental1.php"><img src="img/02T.png" width="300px" class="img-fluid" id="logo2"></a>
-                        </div>
-                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                            <a href="includes/fundamental2.php"><img src="img/03T.png" width="300px" class="img-fluid" id="logo3"></a>
-                        </div>
-                        <div id="iconSolo" class="col-9 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                            <a href="includes/ensinoMedio.php"><img src="img/04T.png" width="300px" class="img-fluid" id="logo4"></a>
-                        </div>
-                        <div id="iconSolo" class="col-8 col-sm-6 col-md-6 col-lg-7 col-xl-6">
-                            <a href="includes/pre-vestibular.php"><img src="img/05T.png" width="300px" class="img-fluid" id="logo5" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--FIM Carrosel Inicio da Página-->
+/*
+ *---------------------------------------------------------------
+ * APPLICATION FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * folder then the default one you can set its name here. The folder
+ * can also be renamed or relocated anywhere on your server.  If
+ * you do, use a full server path. For more info please see the user guide:
+ * http://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ *
+ */
+	$application_folder = 'application';
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here.  For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT:  If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller.  Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ *
+ */
+	// The directory name, relative to the "controllers" folder.  Leave blank
+	// if your controller is not in a sub-folder within the "controllers" folder
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  Mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
 
 
-    <!--<article class="formu">
-        <div id="forms" class="container">
-            <div class="row justify-content-end">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                    <h1 id="h1-t-form">Venha fazer parte deste time de vencedores.</h1>
-                    <p id="p-t-form">O CIC oferece um sistema de ensino que abrange
-                        todas as etapas da formação da criança e do
-                        adolescente.</p>
-                    <p></p>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
-                    <form action="" method="post" class="textForm">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Nome</label>
-                            <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email</label>
-                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">DDD+Telefone</label>
-                            <input type="tel" name="tel" class="form-control" id="exampleFormControlInput1" placeholder="(XX)XXXX-XXXX">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Mensagem</label>
-                            <textarea name="msg" class="form-control" id="exampleFormControlTextarea1" rows="1" required></textarea>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-dark" id="btnForm">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </article>-->
-    <?php require_once("includes/elements/footer.php"); ?>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="jquery/dist/jquery.js"></script>
-    <script src="popper.js/dist/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/estilo.js"></script>
-</body>
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ *
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
 
-</html>
+
+
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
+
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
+
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
+
+	if (realpath($system_path) !== FALSE)
+	{
+		$system_path = realpath($system_path).'/';
+	}
+
+	// ensure there's a trailing slash
+	$system_path = rtrim($system_path, '/').'/';
+
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
+	}
+
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// The PHP file extension
+	// this global constant is deprecated.
+	define('EXT', '.php');
+
+	// Path to the system folder
+	define('BASEPATH', str_replace("\\", "/", $system_path));
+
+	// Path to the front controller (this file)
+	define('FCPATH', str_replace(SELF, '', __FILE__));
+
+	// Name of the "system folder"
+	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
+
+
+	// The path to the "application" folder
+	if (is_dir($application_folder))
+	{
+		define('APPPATH', $application_folder.'/');
+	}
+	else
+	{
+		if ( ! is_dir(BASEPATH.$application_folder.'/'))
+		{
+			exit("Your application folder path does not appear to be set correctly. Please open the following file and correct this: ".SELF);
+		}
+
+		define('APPPATH', BASEPATH.$application_folder.'/');
+	}
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ *
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
+
+/* End of file index.php */
+/* Location: ./index.php */

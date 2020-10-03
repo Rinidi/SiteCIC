@@ -1,0 +1,55 @@
+.navbar__primaria{
+    background-color: rgba(46, 83, 109, 1);
+    text-align: justify;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    text-transform: capitalize;
+    font: normal 15pt Arial;
+}
+.navbar__logo-cic{
+    height: 60px;
+}
+.navbar__logo-cic-texto{
+    height: 45px;
+    margin-bottom: 5px;
+}
+.navbar__texto{
+    color: whitesmoke !important;
+    font: bold 13pt Arial;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #0f2f46;
+}
+.navbar__dropmenu{
+    text-align: center;
+    background-color: rgba(66, 103, 129, 0.9);
+}
+.navbar__droptexto{
+    color: whitesmoke;
+    font: normal 12pt Arial;
+    margin-bottom: 3px;
+    text-shadow: 1px 1px 2px #0f2f46;
+}
+.navbar__droptexto:hover{
+    color: #ffffff;
+}
+
+.navbar__secundaria{
+    background-color: rgba(245, 155, 46, 1);
+    border-bottom: solid 1px gray;
+}
+.navbar__slogan{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+.navbar__icon-celular{
+    height: 20px;
+}
+.navbar__texto-celular{
+    font: normal 1rem Arial;
+    color: rgba(46, 62, 76, 0.9);
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 5px;
+}

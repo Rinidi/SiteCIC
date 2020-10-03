@@ -1,0 +1,52 @@
+.contato{
+    padding-bottom: 50px;
+}
+.contato__titulo{
+    font: bold 30pt Arial;
+    color: antiquewhite;
+    text-align: center;
+
+}
+.contato__titulo-2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #FF9708;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: 0.5px 0.5px 2px black;
+    text-align: center;
+}
+.contato__container-titulo{
+    background-color: rgb(62, 112, 148);
+}
+.contato__titulo-box{
+    width: 100%;
+}
+.contato__container-gps{
+    padding-bottom: 50px;
+}
+.contato__localizacao-frame{
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.contato__container--icons{
+    padding-top: 50px;
+}
+.contato__subtitulo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0c5460;
+    margin-top: 15px;
+}
+.contato__txt{
+    font-size: 1.2rem;
+    color: #494949;
+    text-align: justify;
+    line-height: 2rem;
+    margin-top: 20px;
+}
+

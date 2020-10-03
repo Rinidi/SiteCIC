@@ -1,0 +1,70 @@
+.educacao{
+    text-align: center;
+}
+.educacao__txtbox{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.educacao__titulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #FF9708;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: 0.5px 0.5px 2px black;
+    text-align: start;
+}
+.educacao__subtitulo{
+    margin-top: 15px;
+    color: rgb(58, 62, 156);
+    font: bold 1.6rem Calibri;
+    text-align: start;
+}
+.educacao__imagem{
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #0f0f0f;
+    float: right;
+    margin: 0px 0px 5px 20px;
+}
+.educacao__paragrafo{
+    font-size: 1.3rem;
+    font-family: Calibri;
+    color: #525252;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+.educacao__botao-vermais{
+    background: rgb(44, 91, 125);
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+.educacao__botao-vermais:hover {
+    color: #e5e5e5;
+    background: rgb(36, 73, 97);
+}
+.educacao__imagens{
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #0f0f0f;
+    object-fit: cover;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+@media only screen and (max-width: 700px) {
+    .educacao__imagem{
+        text-align: center;
+        width: 100%;
+        float: center;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

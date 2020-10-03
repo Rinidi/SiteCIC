@@ -1,0 +1,43 @@
+.slogan{
+    background-image: url('../img/vetores/livros.jpg');
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.slogan__titulo{
+    font: bold 2.3rem Arial;
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px black;
+}
+
+.index__container{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.index__carrossel{
+    border: 2px solid #afafaf;
+    border-radius: 5px;
+}
+.index__carrossel-item{
+    height: 450px;
+}
+.carousel__img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover
+}
+.index__carrosel-legenda{
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(46, 83, 109, 0.7)
+}
+
+.index__container--icons{
+    padding-top: 15%;
+}
+.index__icon{
+}
